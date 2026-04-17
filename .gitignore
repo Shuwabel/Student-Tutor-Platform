@@ -1,0 +1,10 @@
+# Local planning and spec docs
+/docs/
+
+# Root PRD requested to stay local
+/PRD.md
+
+# Local app/runtime artifacts
+client/.env.local
+client/.next/
+client/node_modules/
