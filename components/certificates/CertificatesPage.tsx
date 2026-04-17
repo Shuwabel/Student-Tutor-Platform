@@ -5,7 +5,6 @@ import {
   AlertCircle,
   ArrowUpDown,
   Award,
-  CheckCircle,
   Loader2,
   Search,
   XCircle,

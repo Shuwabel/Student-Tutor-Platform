@@ -130,9 +130,10 @@ export function CourseDetails({ courseId }: CourseDetailsProps) {
   // Calculate total lessons
   const totalLessons =
     course.modules?.reduce(
-      (total: number, module: any) => total + (module.lessons?.length || 0),
+      (total: number, module: { lessons?: unknown[] }) =>
+        total + (module.lessons?.length || 0),
       0
-    ) || 0;
+    ) || course.lessons?.length || 0;
 
   const handleEnroll = async () => {
     try {

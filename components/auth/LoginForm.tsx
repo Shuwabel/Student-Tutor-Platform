@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { useAuth } from "@/context/AuthContext";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -89,9 +90,11 @@ export default function LoginForm() {
                   key={n}
                   className="h-10 w-10 rounded-full border-2 border-white/30 bg-white/20 overflow-hidden"
                 >
-                  <img
+                  <Image
                     src={`https://i.pravatar.cc/80?img=${n}`}
                     alt=""
+                    width={40}
+                    height={40}
                     className="h-full w-full object-cover"
                   />
                 </div>

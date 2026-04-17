@@ -21,7 +21,6 @@ import {
   Home,
   LogOut,
   Menu,
-  User,
   Video,
 } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";

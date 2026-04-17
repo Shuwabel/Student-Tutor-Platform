@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { useAuth } from "@/context/AuthContext";
 import {
   getEnrollmentsByStudent,
@@ -199,9 +200,11 @@ export default function StudentDashboard() {
                     {/* Course image */}
                     <div className="hidden sm:block h-20 w-28 shrink-0 overflow-hidden rounded-lg bg-muted">
                       {enr.course?.image_url ? (
-                        <img
+                        <Image
                           src={enr.course.image_url}
                           alt=""
+                          width={112}
+                          height={80}
                           className="h-full w-full object-cover"
                         />
                       ) : (

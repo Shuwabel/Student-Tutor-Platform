@@ -42,7 +42,8 @@ export interface UserAssessmentStatus {
   };
 }
 
-export const getAssessment = requestHandler(newRequest.get("/assessments"));
+export const getAssessment = () =>
+  requestHandler(newRequest.get("/assessments"));
 
 export const getAssessmentById = (id: string) =>
   requestHandler(newRequest.get(`/assessments/${id}`));

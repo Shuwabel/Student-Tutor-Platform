@@ -6,7 +6,6 @@ import {
   BookOpen,
   Calendar,
   GraduationCap,
-  MessageSquare,
   Star,
   Users,
   CheckCircle,
