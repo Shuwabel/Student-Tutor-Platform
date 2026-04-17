@@ -1,0 +1,154 @@
+﻿@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+/*
+  LEARNING COLOR PSYCHOLOGY:
+  - Navy Blue (215â€“240Â°): Trust, intelligence, focus, depth â€” used in universities worldwide
+  - Emerald/Teal Green (155â€“175Â°): Growth, calm, clarity, forward progress
+  - Clean White/Slate background: Readability, openness, professionalism
+  - Zero purple, zero amber/orange
+*/
+
+:root {
+  --radius: 0.75rem;
+
+  /* â”€â”€ Light Mode â”€â”€ */
+  --background: oklch(0.98 0.005 220);           /* Soft cool white, slight blue tint */
+  --foreground: oklch(0.13 0.025 230);           /* Deep navy text */
+
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.13 0.025 230);
+
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.13 0.025 230);
+
+  /* PRIMARY: Deep Academic Navy Blue â€” focus, trust, intelligence */
+  --primary: oklch(0.38 0.13 240);
+  --primary-foreground: oklch(0.98 0 0);
+
+  /* SECONDARY: Emerald Growth Green â€” progress, success, calm */
+  --secondary: oklch(0.52 0.15 162);
+  --secondary-foreground: oklch(0.98 0 0);
+
+  --muted: oklch(0.95 0.01 220);
+  --muted-foreground: oklch(0.50 0.02 230);
+
+  --accent: oklch(0.93 0.03 162);               /* Soft green tint accent */
+  --accent-foreground: oklch(0.30 0.12 162);
+
+  --destructive: oklch(0.58 0.22 25);
+  --destructive-foreground: oklch(0.98 0 0);
+
+  --border: oklch(0.88 0.015 220);
+  --input: oklch(0.88 0.015 220);
+  --ring: oklch(0.38 0.13 240 / 0.35);
+
+  --sidebar: oklch(0.97 0.008 220);
+  --sidebar-foreground: oklch(0.13 0.025 230);
+  --sidebar-primary: oklch(0.38 0.13 240);
+  --sidebar-primary-foreground: oklch(0.98 0 0);
+  --sidebar-accent: oklch(0.93 0.03 162);
+  --sidebar-accent-foreground: oklch(0.30 0.12 162);
+  --sidebar-border: oklch(0.88 0.015 220);
+  --sidebar-ring: oklch(0.38 0.13 240 / 0.35);
+}
+
+.dark {
+  /* â”€â”€ Dark Mode: Deep Navy Void â€” focused, scholarly, serious â”€â”€ */
+  --background: oklch(0.11 0.02 235);            /* Deep navy dark */
+  --foreground: oklch(0.94 0.01 220);
+
+  --card: oklch(0.15 0.025 235);
+  --card-foreground: oklch(0.94 0.01 220);
+
+  --popover: oklch(0.15 0.025 235);
+  --popover-foreground: oklch(0.94 0.01 220);
+
+  /* PRIMARY: Lightened navy for dark mode contrast */
+  --primary: oklch(0.58 0.16 240);
+  --primary-foreground: oklch(0.98 0 0);
+
+  /* SECONDARY: Lighter emerald for dark mode */
+  --secondary: oklch(0.60 0.17 162);
+  --secondary-foreground: oklch(0.98 0 0);
+
+  --muted: oklch(0.20 0.03 235);
+  --muted-foreground: oklch(0.62 0.04 230);
+
+  --accent: oklch(0.22 0.05 162);
+  --accent-foreground: oklch(0.85 0.1 162);
+
+  --destructive: oklch(0.60 0.22 25);
+  --destructive-foreground: oklch(0.98 0 0);
+
+  --border: oklch(0.22 0.03 235);
+  --input: oklch(0.22 0.03 235);
+  --ring: oklch(0.58 0.16 240 / 0.4);
+
+  --sidebar: oklch(0.12 0.022 235);
+  --sidebar-foreground: oklch(0.94 0.01 220);
+  --sidebar-primary: oklch(0.58 0.16 240);
+  --sidebar-primary-foreground: oklch(0.98 0 0);
+  --sidebar-accent: oklch(0.22 0.05 162);
+  --sidebar-accent-foreground: oklch(0.85 0.1 162);
+  --sidebar-border: oklch(0.22 0.03 235);
+  --sidebar-ring: oklch(0.58 0.16 240 / 0.4);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+}
+
+/* â”€â”€ Global utility classes â”€â”€ */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.dark .glass-panel {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+

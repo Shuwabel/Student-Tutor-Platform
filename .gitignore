@@ -1,0 +1,13 @@
+# Local planning and spec docs
+/docs/
+
+# Root PRD requested to stay local
+/PRD.md
+
+# Root app/runtime artifacts
+/.env.local
+/.next/
+/node_modules/
+
+# Codex local helper assets
+/.agents/
