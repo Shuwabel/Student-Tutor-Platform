@@ -4,7 +4,7 @@
 # Root PRD requested to stay local
 /PRD.md
 
-# Local app/runtime artifacts
-client/.env.local
-client/.next/
-client/node_modules/
+# Root app/runtime artifacts
+/.env.local
+/.next/
+/node_modules/
