@@ -1,8 +1,7 @@
 ﻿import axios from "axios";
 
 const newRequest = axios.create({
-  // baseURL: "https://studenttutorplatform-unzf.onrender.com/api",
-  baseURL: "http://localhost:5000/api",
+  baseURL: process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api",
   headers: {
     "Content-Type": "application/json",
   },
@@ -10,10 +9,13 @@ const newRequest = axios.create({
 
 newRequest.interceptors.request.use(
   (config) => {
-    const token = localStorage.getItem("token");
+    if (typeof window === "undefined") {
+      return config;
+    }
+
+    const token = window.localStorage.getItem("token");
     if (token) {
       config.headers["Authorization"] = `Bearer ${token}`;
-      console.log("sending request to server with token", config.baseURL);
     }
     return config;
   },
