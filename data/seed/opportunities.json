@@ -1,0 +1,302 @@
+[
+  {
+    "title": "Entrepreneurship Programme",
+    "org": "Tony Elumelu Foundation",
+    "kind": "Programme",
+    "location": "Africa",
+    "remote": true,
+    "deadline": "",
+    "summary": "TEF Entrepreneurship Programme for African founders: business training, mentoring and seed funding for selected applicants.",
+    "url": "https://www.tonyelumelufoundation.org/",
+    "tags": [
+      "africa",
+      "entrepreneurship",
+      "funding"
+    ]
+  },
+  {
+    "title": "Mastercard Foundation Scholars Program",
+    "org": "Mastercard Foundation",
+    "kind": "Scholarship",
+    "location": "Africa and partner universities",
+    "remote": false,
+    "deadline": "",
+    "summary": "Scholarships and leadership support for academically talented young people from Africa, delivered through partner universities.",
+    "url": "https://mastercardfdn.org/all/scholars/",
+    "tags": [
+      "africa",
+      "scholarship",
+      "leadership"
+    ]
+  },
+  {
+    "title": "Commonwealth Scholarships",
+    "org": "Commonwealth Scholarship Commission",
+    "kind": "Scholarship",
+    "location": "United Kingdom",
+    "remote": false,
+    "deadline": "",
+    "summary": "UK government-backed scholarships for students from eligible Commonwealth countries, including Nigeria, to study at UK universities.",
+    "url": "https://cscuk.fcdo.gov.uk/",
+    "tags": [
+      "commonwealth",
+      "uk",
+      "postgraduate"
+    ]
+  },
+  {
+    "title": "Mandela Rhodes Scholarship",
+    "org": "Mandela Rhodes Foundation",
+    "kind": "Scholarship",
+    "location": "South Africa",
+    "remote": false,
+    "deadline": "",
+    "summary": "Postgraduate scholarship and leadership development programme for young African students.",
+    "url": "https://www.mandelarhodes.org/",
+    "tags": [
+      "africa",
+      "postgraduate",
+      "leadership"
+    ]
+  },
+  {
+    "title": "African Leadership Academy programmes",
+    "org": "African Leadership Academy",
+    "kind": "Programme",
+    "location": "South Africa",
+    "remote": false,
+    "deadline": "",
+    "summary": "Pan-African leadership institution offering pre-university and leadership programmes for young Africans.",
+    "url": "https://www.africanleadershipacademy.org/",
+    "tags": [
+      "africa",
+      "leadership",
+      "youth"
+    ]
+  },
+  {
+    "title": "Andela talent programmes",
+    "org": "Andela",
+    "kind": "Programme",
+    "location": "Online",
+    "remote": true,
+    "deadline": "",
+    "summary": "Andela connects African and global technologists with software engineering roles and learning opportunities.",
+    "url": "https://andela.com/",
+    "tags": [
+      "africa",
+      "software",
+      "career"
+    ]
+  },
+  {
+    "title": "Google Career Certificates",
+    "org": "Google",
+    "kind": "Programme",
+    "location": "Online",
+    "remote": true,
+    "deadline": "",
+    "summary": "Online professional certificate courses in fields such as data analytics, UX design and IT support; financial aid is often available.",
+    "url": "https://grow.google/certificates/",
+    "tags": [
+      "online",
+      "certificate",
+      "tech"
+    ]
+  },
+  {
+    "title": "Google Summer of Code",
+    "org": "Google",
+    "kind": "Internship",
+    "location": "Online",
+    "remote": true,
+    "deadline": "",
+    "summary": "Mentored, remote open-source programme where eligible contributors work on projects with participating organisations.",
+    "url": "https://summerofcode.withgoogle.com/",
+    "tags": [
+      "open-source",
+      "remote",
+      "coding"
+    ]
+  },
+  {
+    "title": "Outreachy Internships",
+    "org": "Outreachy",
+    "kind": "Internship",
+    "location": "Online",
+    "remote": true,
+    "deadline": "",
+    "summary": "Remote, paid-style internships in open source and open science for people who face underrepresentation or systemic bias in tech.",
+    "url": "https://www.outreachy.org/",
+    "tags": [
+      "open-source",
+      "remote",
+      "diversity"
+    ]
+  },
+  {
+    "title": "MLH Fellowship",
+    "org": "Major League Hacking",
+    "kind": "Internship",
+    "location": "Online",
+    "remote": true,
+    "deadline": "",
+    "summary": "Remote programme for aspiring software engineers to work on open-source and engineering projects with mentors.",
+    "url": "https://fellowship.mlh.io/",
+    "tags": [
+      "remote",
+      "software",
+      "fellowship"
+    ]
+  },
+  {
+    "title": "Fulbright Foreign Student Program",
+    "org": "Fulbright",
+    "kind": "Scholarship",
+    "location": "United States",
+    "remote": false,
+    "deadline": "",
+    "summary": "US government-sponsored programme for graduate study, research and teaching exchanges, with country-specific application routes.",
+    "url": "https://foreign.fulbrightonline.org/",
+    "tags": [
+      "usa",
+      "graduate",
+      "exchange"
+    ]
+  },
+  {
+    "title": "Erasmus Mundus Joint Masters",
+    "org": "European Commission",
+    "kind": "Scholarship",
+    "location": "Europe",
+    "remote": false,
+    "deadline": "",
+    "summary": "Integrated international master's programmes delivered by university consortia in Europe, many with scholarship options.",
+    "url": "https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/erasmus-mundus-joint-masters",
+    "tags": [
+      "europe",
+      "masters",
+      "scholarship"
+    ]
+  },
+  {
+    "title": "Rhodes Scholarship",
+    "org": "Rhodes Trust",
+    "kind": "Scholarship",
+    "location": "United Kingdom",
+    "remote": false,
+    "deadline": "",
+    "summary": "Fully funded postgraduate study at the University of Oxford for selected applicants, with regional selection routes.",
+    "url": "https://www.rhodeshouse.ox.ac.uk/scholarships/",
+    "tags": [
+      "oxford",
+      "postgraduate",
+      "scholarship"
+    ]
+  },
+  {
+    "title": "Gates Cambridge Scholarship",
+    "org": "Gates Cambridge Trust",
+    "kind": "Scholarship",
+    "location": "United Kingdom",
+    "remote": false,
+    "deadline": "",
+    "summary": "Postgraduate scholarships at the University of Cambridge for outstanding applicants from outside the UK.",
+    "url": "https://www.gatescambridge.org/",
+    "tags": [
+      "cambridge",
+      "postgraduate",
+      "scholarship"
+    ]
+  },
+  {
+    "title": "DAAD Scholarships",
+    "org": "DAAD",
+    "kind": "Scholarship",
+    "location": "Germany",
+    "remote": false,
+    "deadline": "",
+    "summary": "German Academic Exchange Service funds study and research stays in Germany across many programmes for international students.",
+    "url": "https://www.daad.de/en/",
+    "tags": [
+      "germany",
+      "scholarship",
+      "research"
+    ]
+  },
+  {
+    "title": "Kaggle Competitions",
+    "org": "Kaggle",
+    "kind": "Competition",
+    "location": "Online",
+    "remote": true,
+    "deadline": "",
+    "summary": "Online data science and machine learning competitions, open to learners of all levels, with public notebooks and datasets.",
+    "url": "https://www.kaggle.com/competitions",
+    "tags": [
+      "data-science",
+      "ml",
+      "online"
+    ]
+  },
+  {
+    "title": "Google Developer Student Clubs Solution Challenge",
+    "org": "Google Developers",
+    "kind": "Competition",
+    "location": "Online",
+    "remote": true,
+    "deadline": "",
+    "summary": "Annual-style student challenge where teams build solutions to community problems using Google technologies; check current status.",
+    "url": "https://developers.google.com/community/gdsc-solution-challenge",
+    "tags": [
+      "students",
+      "hackathon",
+      "google"
+    ]
+  },
+  {
+    "title": "freeCodeCamp Certifications",
+    "org": "freeCodeCamp",
+    "kind": "Programme",
+    "location": "Online",
+    "remote": true,
+    "deadline": "",
+    "summary": "Free, self-paced coding curriculum with project-based certifications in web development, data and more.",
+    "url": "https://www.freecodecamp.org/",
+    "tags": [
+      "free",
+      "coding",
+      "certificate"
+    ]
+  },
+  {
+    "title": "Harvard CS50 Certificates",
+    "org": "Harvard University",
+    "kind": "Programme",
+    "location": "Online",
+    "remote": true,
+    "deadline": "",
+    "summary": "Free CS50 computer science courses with optional paid certificates, available online to learners worldwide.",
+    "url": "https://cs50.harvard.edu/certificates",
+    "tags": [
+      "cs50",
+      "computer-science",
+      "online"
+    ]
+  },
+  {
+    "title": "Coursera Financial Aid",
+    "org": "Coursera",
+    "kind": "Programme",
+    "location": "Online",
+    "remote": true,
+    "deadline": "",
+    "summary": "Learners can apply for financial aid or scholarships on eligible Coursera courses and certificates.",
+    "url": "https://learner.coursera.help/hc/en-us/articles/209819033-Apply-for-Financial-Aid-or-a-Scholarship",
+    "tags": [
+      "online",
+      "financial-aid",
+      "courses"
+    ]
+  }
+]

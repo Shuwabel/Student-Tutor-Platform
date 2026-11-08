@@ -1,10 +1,13 @@
-# Local planning and spec docs
-/docs/
-
-# Root PRD requested to stay local
-/PRD.md
-
-# Root app/runtime artifacts
-/.env.local
+/node_modules
 /.next/
-/node_modules/
+/out/
+.env*
+!.env.example
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+/.claude
+/.impeccable
+
+.vercel
+.env*
