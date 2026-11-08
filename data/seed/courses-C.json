@@ -1,0 +1,508 @@
+[
+  {
+    "code": "FIN 140",
+    "title": "Financial Literacy for Young Adults",
+    "summary": "Learn to read a pay slip, build a budget, understand interest and credit, and spot scams, with worked examples you can reuse.",
+    "description": "This course gives you the everyday money skills most people pick up the hard way. You will practise budgeting, saving, understanding interest and debt, and judging investment risk using clear examples. The content is educational and general, so always check the rules where you live.",
+    "subject": "Business",
+    "level": "Beginner",
+    "tutor": 1,
+    "outcomes": [
+      "You will be able to separate gross from net income and build a monthly budget around your real take-home pay.",
+      "You will be able to set an emergency fund target and a savings goal with a timeline.",
+      "You will be able to explain simple and compound interest and compare the cost of borrowing options.",
+      "You will be able to recognise common scams and explain why risk and return are linked."
+    ],
+    "tags": [
+      "budgeting",
+      "saving",
+      "credit",
+      "investing basics",
+      "money skills"
+    ],
+    "modules": [
+      {
+        "title": "Module 1: Know Your Money",
+        "lessons": [
+          {
+            "title": "Income, Net Pay and Where Money Goes",
+            "minutes": 6,
+            "body": "Before you can plan money, you need to know how much you actually have. Two numbers matter. Gross pay is what you earn before anything is taken out. Net pay, often called take-home pay, is what lands in your account after deductions such as income tax, social contributions or pension payments. The exact deductions depend on where you live, so check the rules in your own country or region.\n\nAlways plan with net pay. If a job pays 3,000 a month gross but 2,400 arrives in your account, your budget has 2,400 to work with, not 3,000.\n\n## Types of income\n\n- Wages or salary from an employer\n- Self-employed or freelance earnings, which are usually irregular and may need you to set aside money for tax yourself\n- Gifts, allowances, grants or student support\n- Interest or other returns on savings\n\n## Types of spending\n\nExpenses fall into two broad groups. Fixed expenses stay about the same each month, such as rent, phone plans and subscriptions. Variable expenses change, such as groceries, transport, clothes and entertainment.\n\nA second useful split is needs (things you must pay to live and work) versus wants (things that improve life but could be paused).\n\n## Track before you plan\n\nFor one month, record every purchase. A notes app or a simple spreadsheet is enough. Most people find spending they did not realise they were making.\n\n    Net pay received:        2,400\n    Rent and bills:          1,100\n    Food and transport:        550\n    Everything else tracked:   480\n    Left over:                 270\n\n> Tip: Review your bank statement, not your memory. Memory forgets small purchases; statements do not."
+          },
+          {
+            "title": "Building a Budget That You Can Keep",
+            "minutes": 7,
+            "body": "A budget is a plan for your money, not a punishment. Its job is to make sure your money goes where you decided, rather than wherever it drifts.\n\n## A simple method: 50/30/20\n\nOne popular guideline splits net income into three parts:\n\n- 50% needs: rent, essential food, transport, minimum debt payments\n- 30% wants: eating out, hobbies, streaming, trips\n- 20% savings and extra debt repayment\n\nOn a net income of 2,000 a month, that gives 1,000 for needs, 600 for wants and 400 for saving. Treat it as a starting point. If rent is high where you live, needs may be 60% and wants shrink. The percentages are guidelines, not laws.\n\n## Zero-based budgeting\n\nIn a zero-based budget, every unit of income is given a job until income minus planned spending equals zero. Saving is one of the jobs, so \"zero\" does not mean you spend everything.\n\n## Steps to build yours\n\n- List your net monthly income.\n- List fixed bills and their due dates.\n- Estimate variable costs using last month's tracking.\n- Decide your savings amount first, then split what remains across wants.\n- Review weekly for ten minutes and adjust.\n\n> Tip: Pay yourself first. Move savings out on payday so you are not saving only what is left over.\n\n## When the numbers do not work\n\nIf spending is higher than income, you have two levers: reduce costs or raise income. Start with the biggest categories, since trimming a small subscription helps less than renegotiating rent or a phone contract.\n\nWatch the video below for a quick walkthrough of budgeting basics.",
+            "videoId": "sVKQn2I4HDM"
+          }
+        ]
+      },
+      {
+        "title": "Module 2: Saving, Interest and Credit",
+        "lessons": [
+          {
+            "title": "Emergency Funds and Savings Goals",
+            "minutes": 6,
+            "body": "Life is unpredictable. A phone breaks, a car needs repairs, or a job ends. An emergency fund is money set aside for these surprises so you do not need to borrow at a high cost.\n\n## How much is enough?\n\nA common guideline is three to six months of essential expenses. Notice that it is essential expenses, not income. If your must-pay costs are 1,500 a month, three months is 4,500 and six months is 9,000. Beginners often start with a smaller first milestone, such as one month, and build up.\n\n## Where to keep it\n\nAn emergency fund should be safe and easy to reach. A separate savings account that is not linked to your everyday card works well. It is not the place for investments that could drop in value right when you need cash.\n\n## Goal-based saving\n\nBeyond emergencies, set specific goals. A clear goal has an amount, a deadline and a monthly figure.\n\n    Goal:      Laptop, 900\n    Deadline:  9 months\n    Monthly:   900 / 9 = 100\n\nDividing the target by the number of months turns a vague wish into an action you can automate.\n\n## Making saving stick\n\n- Automate a transfer on payday\n- Give each goal its own labelled account or pot\n- Increase the amount whenever your income rises\n- Do not raid emergency money for wants\n\n> Tip: Small regular amounts beat occasional large ones. Saving 50 a month for two years gives 1,200 before any interest.\n\nIf you do use your emergency fund, refill it before returning to other goals."
+          },
+          {
+            "title": "Interest: Simple and Compound",
+            "minutes": 7,
+            "body": "Interest is the price of using money. When you save, the bank pays you interest. When you borrow, you pay interest. Understanding how it grows is one of the most valuable money skills.\n\n## Simple interest\n\nSimple interest is calculated only on the original amount, called the principal.\n\n    Interest = principal x rate x years\n    1,000 x 5% x 3 = 150\n    Total after 3 years = 1,150\n\n## Compound interest\n\nCompound interest is calculated on the principal plus interest already earned. You earn interest on your interest.\n\n    Year 1: 1,000 x 1.05 = 1,050.00\n    Year 2: 1,050 x 1.05 = 1,102.50\n    Year 3: 1,102.50 x 1.05 = 1,157.63\n\nAfter three years, compound growth gives 1,157.63 compared with 1,150 under simple interest. The gap looks small at first but widens dramatically over decades, which is why starting early matters.\n\n## It works against borrowers too\n\nOn a debt, compounding means unpaid interest is added to what you owe. Credit cards often charge interest that compounds, so a balance can grow quickly if you pay only the minimum.\n\n## Reading the rate\n\nThe APR (annual percentage rate) shows the yearly cost of borrowing, usually including some fees. Use it to compare loans. For savings, look at the stated annual rate and whether interest is paid monthly or yearly.\n\n> Tip: Rule of 72. Divide 72 by the annual rate to estimate years to double. At 6%, 72 / 6 = 12 years.\n\nRates change and products differ, so always read the terms."
+          },
+          {
+            "title": "Credit, Borrowing and Debt",
+            "minutes": 7,
+            "body": "Credit means borrowing money now and agreeing to repay later, usually with interest. Used carefully, it can help you buy something important or build a track record. Used carelessly, it becomes expensive.\n\n## Common forms of credit\n\n- Credit cards: flexible, but interest is often high if you do not repay the balance in full each month\n- Personal or student loans: a fixed amount repaid in instalments over a set time\n- Buy now, pay later: split payments that can feel painless but still count as debt and can carry fees if you miss one\n\n## Costs to check\n\nLook at the APR, any fees, the repayment term and the total you will repay. A longer term lowers the monthly payment but usually raises the total interest.\n\n    Borrow 1,200 at a flat total cost of 10%\n    Total to repay = 1,200 x 1.10 = 1,320\n    Over 12 months = 110 per month\n\n## Credit scores and reports\n\nIn many countries, lenders use a credit report or score to judge how reliably you repay. Paying on time, keeping balances low compared with your limit, and not applying for many accounts at once usually help. The scoring system differs by country, so look up how yours works.\n\n## Healthy habits\n\n- Borrow only what your budget can repay\n- Pay on time; set reminders or automatic payments\n- Pay more than the minimum whenever possible\n- Tackle the highest-interest debt first, which saves the most money\n\n> Tip: If you are struggling to repay, contact the lender early. Many have hardship options, and free debt advice services exist in many places."
+          }
+        ]
+      },
+      {
+        "title": "Module 3: Growing and Protecting Your Money",
+        "lessons": [
+          {
+            "title": "Investing Basics: Risk, Return and Diversification",
+            "minutes": 7,
+            "body": "Saving keeps money safe; investing aims to make it grow over time by buying assets such as shares, bonds or funds. This lesson is general education, not personal advice.\n\n## Risk and return\n\nHigher potential returns come with higher risk. Cash in a savings account is stable but grows slowly and can lose purchasing power when prices rise (inflation). Shares can grow more over long periods but can fall sharply in the short term. No investment is both high return and risk-free.\n\n## Common building blocks\n\n- Shares (stocks): small ownership stakes in companies\n- Bonds: loans to governments or companies that pay interest\n- Funds: baskets of many investments bought in one purchase, which gives instant spread\n\n## Diversification\n\nDiversification means not putting all your money in one place. If you own 100 different companies and one fails, you lose a small part. If you own only that one, you lose much more.\n\n## Time horizon\n\nMoney you need within a few years generally should not sit in volatile assets, because you may be forced to sell at a bad moment. Money for goals decades away can ride out ups and downs more easily.\n\n## Costs matter\n\nFees reduce returns every year. A fund that charges 1.5% a year takes far more over time than one that charges 0.2%.\n\n    10,000 growing 5% a year for 20 years = about 26,533\n\n> Tip: Before investing, have an emergency fund and no high-interest debt. Rules, accounts and taxes on investing vary by country, so check where you live or speak to a licensed adviser."
+          },
+          {
+            "title": "Scams, Fraud and Protecting Yourself",
+            "minutes": 6,
+            "body": "Scammers target young adults because they are often online, new to managing money and open to opportunities. Knowing the patterns protects you.\n\n## Common warning signs\n\n- Pressure and urgency: \"Act now or lose out\"\n- Guaranteed high returns: genuine investments cannot promise big gains with no risk\n- Requests for unusual payment: gift cards, crypto transfers or sending money to a \"safe account\"\n- Unexpected contact: calls, texts or messages claiming to be your bank, a delivery firm or a tax office\n- Secrecy: being told not to discuss it with family or your bank\n\n## Common scam types\n\n- Phishing: fake emails or texts with links that steal your login details\n- Job scams: you are asked to pay for training or \"process payments\" for a company\n- Romance and friendship scams: someone builds trust, then asks for money\n- Marketplace scams: fake sellers or overpayment tricks\n\n## Protect yourself\n\n- Use a different strong password for each account, ideally with a password manager\n- Turn on two-step verification\n- Never share one-time codes, PINs or full passwords with anyone\n- Type your bank's address yourself or use its official app instead of clicking links\n- Check statements regularly\n\n    Rule: if it is unexpected, urgent and about money, stop and verify.\n\n> Tip: Hang up and call the organisation using the number on its official website or your card, not the number the caller gave you.\n\nIf you are caught out, tell your bank immediately and report it to the relevant authority where you live. Acting fast improves your chances of recovery."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "title": "FIN 140 Checkpoint Quiz",
+      "description": "Check your understanding of budgeting, saving, interest, credit, investing and scams.",
+      "minutes": 10,
+      "passMark": 60,
+      "questions": [
+        {
+          "prompt": "Which figure should you use as the base for your monthly budget?",
+          "options": [
+            "Gross pay",
+            "Your highest ever monthly pay",
+            "Net (take-home) pay",
+            "Your employer's total cost of hiring you"
+          ],
+          "answerIndex": 2,
+          "explanation": "Net pay is the money that actually reaches your account, so plans built on it are realistic."
+        },
+        {
+          "prompt": "Using the 50/30/20 guideline on a net income of 2,000 a month, how much goes to savings and extra debt repayment?",
+          "options": [
+            "400",
+            "200",
+            "300",
+            "600"
+          ],
+          "answerIndex": 0,
+          "explanation": "20% of 2,000 is 400."
+        },
+        {
+          "prompt": "Your essential expenses are 1,500 a month. What is a three-month emergency fund target?",
+          "options": [
+            "3,000",
+            "1,500",
+            "9,000",
+            "4,500"
+          ],
+          "answerIndex": 3,
+          "explanation": "3 x 1,500 = 4,500; nine thousand would be six months."
+        },
+        {
+          "prompt": "You put 1,000 in an account paying 5% compound interest a year. What is the balance after two years?",
+          "options": [
+            "1,100.00",
+            "1,102.50",
+            "1,105.00",
+            "1,050.00"
+          ],
+          "answerIndex": 1,
+          "explanation": "Year one gives 1,050, and year two adds 5% of 1,050 which is 52.50, making 1,102.50."
+        },
+        {
+          "prompt": "Which habit most reduces the interest you pay on a credit card?",
+          "options": [
+            "Paying only the minimum each month",
+            "Making purchases on several cards",
+            "Ignoring statements until the due date has passed",
+            "Paying more than the minimum, ideally the full balance"
+          ],
+          "answerIndex": 3,
+          "explanation": "Larger payments shrink the balance that interest is charged on, so total interest falls."
+        },
+        {
+          "prompt": "An online \"investment manager\" promises guaranteed 30% returns and says you must deposit today. What is the best response?",
+          "options": [
+            "Treat it as a likely scam and verify independently",
+            "Deposit a small amount to test it",
+            "Share it with friends so they can benefit",
+            "Send your ID and bank details to prove you are serious"
+          ],
+          "answerIndex": 0,
+          "explanation": "Guaranteed high returns plus pressure are classic scam signs, and risk and return always go together."
+        }
+      ]
+    },
+    "assignment": {
+      "title": "Build and Test Your Monthly Budget",
+      "brief": "Create a one-month budget in a spreadsheet or notes app. Use real or realistic figures for your net income, fixed expenses, variable expenses and one savings goal with an amount, deadline and monthly contribution. Compare your plan with the 50/30/20 guideline and write 150 words explaining where you differ and why. Finally, list three changes you could make if your income dropped by 10%. Submit the spreadsheet or a screenshot plus your short written explanation.",
+      "points": 50,
+      "dueInDays": 10
+    },
+    "materials": [
+      {
+        "title": "OpenStax: Principles of Finance",
+        "description": "Free peer-reviewed textbook covering time value of money, risk, and investing in more depth.",
+        "kind": "link",
+        "url": "https://openstax.org/details/books/principles-finance"
+      },
+      {
+        "title": "Khan Academy: Financial Literacy",
+        "description": "Free videos and exercises on budgeting, saving, credit and investing basics.",
+        "kind": "link",
+        "url": "https://www.khanacademy.org/college-careers-more/financial-literacy"
+      }
+    ]
+  },
+  {
+    "code": "COMM 150",
+    "title": "Public Speaking with Confidence",
+    "summary": "Plan, structure and deliver talks with confidence: manage nerves, shape a clear message, use voice and body well, and handle questions.",
+    "description": "This course walks you through every stage of a talk, from analysing your audience to handling questions. You will learn practical techniques for calming nerves, structuring ideas, and using voice, gesture and slides well. Each module ends with activities you can practise alone or with a friend.",
+    "subject": "Communication",
+    "level": "Beginner",
+    "tutor": 2,
+    "outcomes": [
+      "You will be able to analyse an audience and define a single clear purpose for a talk.",
+      "You will be able to use practical techniques to manage nerves before and during a speech.",
+      "You will be able to structure a talk with a strong opening, a clear body and a memorable close.",
+      "You will be able to use voice, body language, slides and question handling to deliver with confidence."
+    ],
+    "tags": [
+      "public speaking",
+      "presentations",
+      "communication",
+      "confidence"
+    ],
+    "modules": [
+      {
+        "title": "Module 1: Prepare Your Mind and Message",
+        "lessons": [
+          {
+            "title": "Know Your Audience and Purpose",
+            "minutes": 6,
+            "body": "Great speakers begin with the listener, not the slides. Before writing a word, answer three questions: who are they, what do they already know, and what do I want them to do or understand afterwards?\n\n## Audience analysis\n\nConsider these factors:\n\n- Size and setting: a team of five calls for a conversational tone; a hall of two hundred needs more projection\n- Knowledge level: avoid jargon with beginners; do not over-explain to experts\n- Motivation: why are they there? Are they required to attend, curious, or skeptical?\n- Time and attention: a post-lunch slot needs more energy than a morning keynote\n\n## Your purpose\n\nMost talks do one of three things: inform, persuade or inspire. Choose one primary purpose. A talk that tries to do everything leaves listeners unsure what to remember.\n\n## The one-sentence message\n\nWrite your core message in a single sentence. This is your anchor.\n\n    Weak:   \"My talk is about recycling.\"\n    Strong: \"After this talk, you will sort your waste into the right bin\n             because it makes recycling cheaper and cleaner.\"\n\nIf you cannot say it in one sentence, you are not ready to build slides.\n\n## Selecting content\n\nAudiences remember very little, so choose two or three key points and support each with a story, example or number. Cut anything that does not serve your message, even if it is interesting.\n\n> Tip: Ask the organiser for details in advance: audience profile, room layout, equipment and exact time. Surprises on the day increase nerves.\n\nFinally, say your message aloud to someone unfamiliar with the topic. If they can repeat it back, it is clear enough."
+          },
+          {
+            "title": "Managing Nerves and Building Confidence",
+            "minutes": 7,
+            "body": "Nearly everyone feels nervous before speaking. The aim is not to remove nerves but to channel them. A racing heart and sweaty palms are signs of adrenaline, which can sharpen focus when you steer it well.\n\n## Before the talk\n\n- Prepare thoroughly: most anxiety comes from uncertainty, so rehearse out loud, not just in your head\n- Practise in the real space if possible, or in a similar room\n- Move your body: a short walk or gentle stretching burns off nervous energy\n- Breathe slowly: breathe in for four counts, hold for four, and out for six; longer exhales calm the body\n- Avoid too much caffeine, which can heighten jitters\n\n## Reframe the feeling\n\nTelling yourself \"I must calm down\" rarely works. Try \"I am excited\" instead. Your body feels similar either way, but excitement points toward performance rather than threat.\n\n## During the talk\n\n- Pause and take one breath before your first sentence\n- Start with a line you have memorised so the first thirty seconds feel safe\n- Focus on helping the audience, not on how you look\n- If you lose your place, pause. Silence feels longer to you than to them\n\n## Remember the audience\n\nListeners generally want you to succeed. They notice far fewer small slips than you imagine.\n\n    Build confidence step by step:\n    1. Speak to a mirror\n    2. Speak to a friend\n    3. Speak to a small group\n    4. Speak to a larger room\n\n> Tip: Record yourself on your phone. Watching it once is uncomfortable but shows you that you look calmer than you feel.\n\nWatch the video below for further methods to ease speaking anxiety.",
+            "videoId": "Edg54WnYqkE"
+          }
+        ]
+      },
+      {
+        "title": "Module 2: Structure Your Talk",
+        "lessons": [
+          {
+            "title": "Structuring Your Talk: Opening, Body, Close",
+            "minutes": 7,
+            "body": "A clear structure helps the audience follow you and helps you remember what comes next. The classic shape has three parts.\n\n## The classic shape\n\n- Opening: grab attention, state your message and give a brief preview\n- Body: develop two or three main points\n- Close: summarise and finish with a clear final thought or action\n\nAn old saying sums it up: tell them what you will tell them, tell them, then tell them what you told them. It sounds repetitive on paper but works for listeners, who cannot re-read a spoken sentence.\n\n## The rule of three\n\nPeople find groups of three easy to remember. Aim for three main points, or at most four. More than that and recall drops.\n\n## Ordering your points\n\nPick an order that suits the topic:\n\n- Chronological: past, present, future\n- Problem and solution: describe the issue, then your fix\n- Cause and effect: why something happens and what follows\n- Order of importance: strongest point first or last\n\n## Signposting\n\nUse verbal signposts so the audience knows where they are.\n\n    \"First, let's look at the cost.\"\n    \"That brings me to my second point: time.\"\n    \"To wrap up...\"\n\n## Transitions\n\nShort bridging sentences link sections: \"Now that we know the problem, let's look at what can be done.\"\n\n## Timing\n\nPlan roughly 10 to 15 percent for the opening, 75 to 80 percent for the body, and 10 percent for the close. Then time a full rehearsal and trim until you finish a little early.\n\n> Tip: Build the talk on index cards or a one-page outline with keywords rather than a full script. Scripts tend to sound read aloud."
+          },
+          {
+            "title": "Powerful Openings and Memorable Endings",
+            "minutes": 6,
+            "body": "Listeners decide very quickly whether to pay attention. Your first thirty seconds and your last thirty seconds are the most valuable parts of the talk.\n\n## Strong ways to open\n\n- A short story: a specific moment with a person, place and problem\n- A surprising fact or number: only if it truly connects to your message\n- A question: ask something that makes people think, and give them a moment to answer silently\n- A vivid scenario: \"Imagine it is Monday morning and your alarm does not go off...\"\n\n## Openings to avoid\n\n- Apologising: \"Sorry, I'm not good at this\"\n- Opening with \"Today I'm going to talk about...\" and nothing else\n- Long thank-you lists before saying anything useful\n- Jokes unrelated to your topic\n\n## After the hook\n\nMove straight to your message and preview: \"I will give you three ways to make your revision stick.\"\n\n## Strong endings\n\n- Echo the opening: return to the story or question you began with\n- Call to action: tell people one specific thing to do next\n- Memorable summary line: restate your core message in fresh, short words\n\n    Weak:   \"So... yeah, that's all I had. Thanks, I guess.\"\n    Strong: \"Start tonight: write down one thing you want to remember.\n             Thank you.\"\n\n## Landing the finish\n\nDeliver your last line slowly, pause, then say thank you. Do not trail off or add new points after the conclusion.\n\n> Tip: Memorise your first and last sentences word for word. Everything in the middle can be spoken from your outline."
+          }
+        ]
+      },
+      {
+        "title": "Module 3: Deliver with Presence",
+        "lessons": [
+          {
+            "title": "Using Your Voice: Pace, Pause and Projection",
+            "minutes": 6,
+            "body": "Your voice carries your message. Even excellent content can fall flat if it is delivered in a monotone, too quickly or too quietly.\n\n## Pace\n\nConversational speech runs at roughly 120 to 160 words per minute. Nervous speakers often rush. Slow down, especially for key ideas and numbers. A talk script of about 130 words per minute is a good rehearsal target, so a five minute talk is roughly 650 words.\n\n## Pause\n\nPauses are powerful. Use them:\n\n- After an important point, so it can sink in\n- Before a key reveal, to build anticipation\n- Instead of filler words like \"um\" and \"you know\"\n\nSilence feels much longer to the speaker than to the listener.\n\n## Volume and projection\n\nSpeak to the back row, not to the floor. Projection comes from steady breath support, not shouting. Stand tall, breathe low into your belly, and aim your voice at the farthest person.\n\n## Variety\n\nVary pitch, pace and volume to emphasise meaning. Slow down and lower your voice for serious moments; speed up slightly for excitement.\n\n## Clarity\n\n- Articulate consonants, especially at the ends of words\n- Keep sentences short\n- Check any microphone before you start\n\n    Practice drill: read one paragraph three times.\n    1. Fast and flat\n    2. Slow and varied\n    3. Normal pace with deliberate pauses\n\n> Tip: Record yourself and count filler words. Awareness alone usually halves them within a few attempts."
+          },
+          {
+            "title": "Body Language, Eye Contact and Stage Presence",
+            "minutes": 6,
+            "body": "Audiences respond to what they see as much as what they hear. Your body can support your message or distract from it.\n\n## Posture and stance\n\nStand with feet about shoulder width apart, weight balanced, shoulders relaxed. This looks steady and helps your breathing. Avoid swaying, pacing in circles or leaning on furniture.\n\n## Gestures\n\nGestures should be natural and purposeful.\n\n- Keep hands visible, at around waist height\n- Use gestures to illustrate: show size, count points on your fingers, or indicate direction\n- Avoid fidgeting with pens, hair or jewellery\n- If you do not know what to do with your hands, let them rest at your sides between gestures\n\n## Eye contact\n\nLook at individual people for a full thought or sentence, about three to five seconds, then move on. This feels personal and prevents scanning the room. In a large room, divide the audience into zones and speak to each zone in turn. On video calls, look at the camera lens when making key points.\n\n## Facial expression\n\nMatch your face to your message. A genuine smile at the start helps the audience relax.\n\n## Movement\n\nMove with purpose, such as stepping to a new spot for a new point, then stop. Constant wandering distracts.\n\n    Quick check before you speak:\n    Feet steady, shoulders down, hands free, chin level.\n\n> Tip: Practise with a friend watching for one habit at a time. Trying to fix everything at once makes you stiff.\n\nCultures differ in norms around eye contact and gesture, so adapt to your audience."
+          },
+          {
+            "title": "Slides, Props and Handling Questions",
+            "minutes": 7,
+            "body": "Visual aids and questions are where many good talks wobble. Treat both as part of the plan.\n\n## Slides support you, they are not you\n\n- One idea per slide\n- Use large text, ideally 24 point or bigger\n- Prefer images, charts and short phrases to paragraphs\n- Keep consistent fonts and colours\n- Avoid reading slides aloud; the audience reads faster than you speak and will stop listening\n\nA useful check: if your slides read like a full document, they hold too much text. They should support your words, not replace them.\n\n## Charts and numbers\n\nLabel axes, remove clutter and highlight the one figure you want people to remember.\n\n## Technical prep\n\n- Arrive early and test the projector, clicker and sound\n- Save a backup copy on a USB drive or cloud storage\n- Prepare to speak without slides if technology fails\n\n## Handling questions\n\n- Listen to the whole question without interrupting\n- Pause, then repeat or paraphrase it so everyone hears it\n- Answer briefly and honestly\n- If you do not know, say so and offer to find out: \"I don't have that figure, but I will check and email you.\"\n- For hostile questions, stay calm, acknowledge the concern and answer the facts\n\n    Useful bridge: \"That's a good question. What I can say is...\"\n\n## Planning ahead\n\nBrainstorm the five hardest questions you could receive and practise your answers aloud.\n\n> Tip: End the Q&A with a short final statement of your key message, so the last words are yours rather than a random question."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "title": "COMM 150 Checkpoint Quiz",
+      "description": "Test your knowledge of audience analysis, nerves, structure, delivery and questions.",
+      "minutes": 10,
+      "passMark": 60,
+      "questions": [
+        {
+          "prompt": "What should you do first when preparing a talk?",
+          "options": [
+            "Design the slides",
+            "Learn your audience and decide on a single clear purpose",
+            "Write a full script to memorise",
+            "Choose a joke to open with"
+          ],
+          "answerIndex": 1,
+          "explanation": "Audience and purpose guide every later choice about content and style."
+        },
+        {
+          "prompt": "Which breathing pattern from the lessons helps calm the body before speaking?",
+          "options": [
+            "Fast shallow breaths",
+            "Holding your breath for ten seconds",
+            "In for four, hold for four, out for six",
+            "Breathing only through the chest as quickly as possible"
+          ],
+          "answerIndex": 2,
+          "explanation": "Longer exhales than inhales help slow the heart rate and ease tension."
+        },
+        {
+          "prompt": "Why does the lesson recommend building a talk around two to four main points?",
+          "options": [
+            "People remember small groups of ideas far better than long lists",
+            "Examiners expect exactly three",
+            "Slides cannot hold more points",
+            "It makes the talk longer"
+          ],
+          "answerIndex": 0,
+          "explanation": "Audiences retain little, so the rule of three keeps points memorable."
+        },
+        {
+          "prompt": "Which is a recommended way to end a talk?",
+          "options": [
+            "Adding a new point after the conclusion",
+            "Trailing off with \"that's all I had\"",
+            "Apologising for running out of time",
+            "Echoing your opening story or giving one specific call to action"
+          ],
+          "answerIndex": 3,
+          "explanation": "A call to action or a return to the opening gives a clear, memorable finish."
+        },
+        {
+          "prompt": "At about 130 words per minute, roughly how many words does a five-minute talk contain?",
+          "options": [
+            "260",
+            "650",
+            "1,300",
+            "130"
+          ],
+          "answerIndex": 1,
+          "explanation": "130 x 5 = 650 words."
+        },
+        {
+          "prompt": "A listener asks a question you cannot answer. What is the best response?",
+          "options": [
+            "Make up an answer that sounds confident",
+            "Ignore the question and move to the next one",
+            "Say you do not know and offer to find out and follow up",
+            "Tell them the question is irrelevant"
+          ],
+          "answerIndex": 2,
+          "explanation": "Honesty with a follow-up offer builds trust, whereas guessing risks your credibility."
+        }
+      ]
+    },
+    "assignment": {
+      "title": "Record a Three-Minute Talk",
+      "brief": "Prepare and record a three-minute talk on a topic you know well, using your phone or webcam. Write a one-sentence message first, then plan an opening hook, two main points and a closing call to action on an outline. Deliver it from keywords, not a script. Watch your recording and write 100 words of self-feedback covering voice, body language and structure, plus one change you will try next time. Submit the video link or file and your outline with your feedback notes.",
+      "points": 60,
+      "dueInDays": 14
+    },
+    "materials": [
+      {
+        "title": "TED: Public Speaking Talks",
+        "description": "Browse talks about public speaking and watch how experienced speakers structure and deliver ideas.",
+        "kind": "link",
+        "url": "https://www.ted.com/topics/public+speaking"
+      },
+      {
+        "title": "TED's Secret to Great Public Speaking (Chris Anderson)",
+        "description": "The head of TED explains the core principles behind talks that resonate with audiences.",
+        "kind": "video",
+        "url": "https://www.ted.com/talks/chris_anderson_ted_s_secret_to_great_public_speaking"
+      }
+    ]
+  },
+  {
+    "code": "ENG 120",
+    "title": "Academic Writing: Essays That Work",
+    "summary": "Plan, draft and revise academic essays: decode prompts, craft theses, build paragraphs, use evidence, and cite sources honestly.",
+    "description": "This course teaches the full essay process from reading the prompt to final proofreading. You will practise writing arguable theses, building well-evidenced paragraphs and revising for clarity and logic. It also covers using sources responsibly and avoiding plagiarism.",
+    "subject": "English",
+    "level": "Intermediate",
+    "tutor": 3,
+    "outcomes": [
+      "You will be able to analyse an essay prompt and narrow it to a focused, arguable position.",
+      "You will be able to write a clear thesis statement and organise paragraphs that support it.",
+      "You will be able to integrate and explain evidence while keeping your own voice central.",
+      "You will be able to revise at the global and sentence level and cite sources to avoid plagiarism."
+    ],
+    "tags": [
+      "essay writing",
+      "thesis",
+      "argument",
+      "revision",
+      "citation"
+    ],
+    "modules": [
+      {
+        "title": "Module 1: Plan the Argument",
+        "lessons": [
+          {
+            "title": "Decoding the Prompt and Choosing a Focus",
+            "minutes": 6,
+            "body": "Many weak essays answer the wrong question. Start by reading the prompt slowly and breaking it into parts.\n\n## Look at the task words\n\nInstruction verbs tell you what kind of thinking is expected:\n\n- Describe or outline: report what something is\n- Analyse: break it into parts and explain how they work together\n- Compare: examine similarities and differences\n- Evaluate or assess: judge how effective, important or valid something is\n- Argue or discuss: take a position and support it\n\n## Identify the scope\n\nUnderline the topic, any limits (time period, text, location) and any required sources. Check word count, referencing style and deadline.\n\n## From topic to focus\n\nA topic is broad: \"social media.\" A focus is narrower and gives you something to say: \"How short-form video affects attention in secondary school students.\" Narrow until you can cover the idea well in the word limit.\n\n    Topic:     Climate change\n    Narrowed:  Climate policy in cities\n    Question:  Do congestion charges reduce traffic emissions?\n\n## Brainstorm and research\n\n- Freewrite what you already think for five minutes\n- List questions you need to answer\n- Read widely at first, then deliberately\n\n## Plan before drafting\n\nSketch a short outline: your position, three or four supporting points, and the evidence for each. This will not be perfect, and it is allowed to change.\n\n> Tip: Turn the prompt into a question and keep it visible while writing. If a paragraph does not help answer it, cut or rework it.\n\nIf the prompt is unclear, ask your instructor early rather than guessing."
+          },
+          {
+            "title": "Writing a Strong Thesis Statement",
+            "minutes": 6,
+            "body": "A thesis statement is the central claim of your essay, usually one or two sentences near the end of the introduction. Everything else in the essay exists to support it.\n\n## What makes a thesis strong\n\n- Arguable: reasonable people could disagree\n- Specific: it names the exact subject and position\n- Focused: it fits the length of your essay\n- Previews reasoning: it hints at the main grounds for your claim\n\n## Examples\n\n    Weak (fact):     Many students use phones in class.\n    Weak (vague):    Phones in class are bad.\n    Stronger:        Because they fragment attention and reduce note quality,\n                     phones should be restricted during lectures at university.\n\nThe strong version states a position, gives reasons, and suggests the structure of the essay.\n\n## A simple formula\n\n    Although [counterargument], [your claim] because [reason 1] and [reason 2].\n\nThe \"although\" clause shows awareness of other views, which makes arguments more persuasive.\n\n## Test your thesis\n\n- Could someone disagree? If not, it is a fact, not a thesis\n- Can you prove it in the word limit?\n- Does it answer the prompt directly?\n- Does it avoid vague words like \"good,\" \"bad\" or \"interesting\"?\n\n## Revising your thesis\n\nExpect your thesis to evolve as you write. Return to it after drafting and make sure it matches what you actually argued.\n\n> Tip: Avoid announcing \"In this essay I will...\" Say the claim itself.\n\nWatch the video below for a short walkthrough of thesis statement writing.",
+            "videoId": "DFp1uGTXo4Q"
+          }
+        ]
+      },
+      {
+        "title": "Module 2: Draft with Evidence",
+        "lessons": [
+          {
+            "title": "Building Paragraphs That Argue",
+            "minutes": 6,
+            "body": "Each body paragraph should do one job: develop one idea that supports your thesis. A well-built paragraph is easy to follow because it has a recognisable shape.\n\n## The TEEL pattern\n\n- Topic sentence: the main point of the paragraph, linked to your thesis\n- Evidence: a fact, statistic, quotation or example\n- Explanation: your analysis of how the evidence supports the point\n- Link: a closing sentence that ties back to the thesis or leads to the next paragraph\n\n    Topic:       Remote lectures reduce active participation.\n    Evidence:    In a 2021 survey of 400 students, 62% said they spoke less online.\n    Explanation: This suggests the chat format discourages spontaneous discussion,\n                 which is central to learning in seminars.\n    Link:        Participation is therefore a key cost to weigh against convenience.\n\n(Example figures are illustrative.)\n\n## Common problems\n\n- Several ideas in one paragraph: split it\n- Quote dropped in with no comment: always explain why it matters\n- Descriptive summary instead of argument: ask \"so what?\" after each piece of evidence\n- No topic sentence: the reader must guess the point\n\n## Paragraph length\n\nAim for roughly 100 to 200 words. Very short paragraphs often lack development, and very long ones usually contain more than one idea.\n\n## Transitions\n\nUse words that show relationships between ideas: \"however\" for contrast, \"therefore\" for result, \"similarly\" for comparison, \"for example\" for illustration.\n\n> Tip: Reverse outline after drafting. Write one line per paragraph summarising its point. If the lines do not form a logical argument, reorder or rewrite."
+          },
+          {
+            "title": "Using Evidence and Integrating Sources",
+            "minutes": 7,
+            "body": "In academic writing, claims need support. Strong essays rely on credible evidence and combine it smoothly with your own thinking.\n\n## Types of evidence\n\n- Statistics and data\n- Expert opinions and published studies\n- Examples and case studies\n- Quotations from primary texts\n- Historical or documented events\n\n## Judging sources\n\nAsk: Who wrote it? Is the author qualified? Is it peer-reviewed or published by a reputable organisation? Is it recent enough? Does the author have a bias? Libraries and academic databases are better starting points than general search results.\n\n## Quote, paraphrase or summarise\n\n- Quote when the exact wording matters or is especially powerful; keep quotes short\n- Paraphrase to restate a specific idea in your own words and sentence structure\n- Summarise to condense a larger piece of writing into its main points\n\nParaphrase well. Changing a few words is not enough; change both the wording and the structure, and still cite the source.\n\n## The quotation sandwich\n\n1. Introduce the source (\"According to Smith,\")\n2. Present the quotation or paraphrase\n3. Explain what it shows and why it matters\n\n    As Okafor argues, \"early feedback shapes lasting habits\" (2020, p. 14).\n    This indicates that timing, not volume, determines whether students\n    improve, supporting the case for shorter, faster comments.\n\n## Balance your voice\n\nIf more than a third of your essay is quoted material, your own analysis is probably thin. The sources should support your argument, not replace it.\n\n> Tip: Record full source details as you read. Retracing a missing page number the night before the deadline is stressful.\n\nCitation styles vary by subject, so follow your course guide."
+          },
+          {
+            "title": "Introductions and Conclusions",
+            "minutes": 6,
+            "body": "Introductions and conclusions frame your argument. They are short but have a large effect on how readers judge the whole essay. Often it is best to write them last.\n\n## A reliable introduction\n\nThink of it as a funnel from broad to specific:\n\n- Hook or context: a relevant fact, question or short scenario that places the topic in context\n- Background: the minimum information the reader needs\n- Thesis: your clear claim, usually as the final sentence\n\nKeep it proportionate. In a 1,500 word essay, an introduction of about 150 words is typical.\n\n## Introductions to avoid\n\n- Dictionary definitions (\"Webster defines...\")\n- Sweeping claims such as \"Since the dawn of time...\"\n- Announcements about what you will do rather than doing it\n\n## A useful conclusion\n\nThink of it as a funnel in reverse, from specific to broad:\n\n- Restate your thesis in fresh words, not copy and paste\n- Synthesise the main points to show how they fit together\n- Show significance: why does the argument matter, and what might follow?\n\n    Example closing move:\n    \"If lecture capture reduces attendance but improves revision, then\n    universities should treat recordings as a supplement, not a substitute.\"\n\n## What not to do\n\n- Introduce brand new evidence\n- Apologise (\"I may not be an expert, but...\")\n- Merely repeat the introduction\n\n> Tip: After writing the conclusion, reread your introduction. If the two do not match, one of them needs to be revised.\n\nLeave time to polish both; markers often read them most carefully."
+          }
+        ]
+      },
+      {
+        "title": "Module 3: Revise and Finalise",
+        "lessons": [
+          {
+            "title": "Revising, Editing and Proofreading",
+            "minutes": 6,
+            "body": "Good writing is rewritten. Revision is not just fixing typos; it is a series of passes at different levels, each with a different focus.\n\n## Pass 1: Revising (big picture)\n\nAsk whether the essay answers the prompt, whether the thesis is clear, and whether the argument builds logically.\n\n- Does each paragraph support the thesis?\n- Is there enough evidence, and is it explained?\n- Have you considered an opposing view?\n- Do you need to cut, add or reorder sections?\n\n## Pass 2: Editing (sentences and style)\n\n- Replace vague words with precise ones\n- Cut padding such as \"in order to,\" \"it is important to note that\" and \"very\"\n- Prefer active voice when the actor matters: \"The committee approved the plan\" rather than \"The plan was approved by the committee\"\n- Vary sentence length\n- Check that terms are used consistently\n\n    Wordy:    There are many students who find that the process of revising is difficult.\n    Tighter:  Many students find revising difficult.\n\n## Pass 3: Proofreading (surface errors)\n\nCheck spelling, punctuation, capitalisation, formatting and reference lists. Do this last, since there is no point polishing sentences you may delete.\n\n## Techniques\n\n- Take a break of several hours or a day before revising\n- Read aloud to catch awkward phrasing\n- Print the essay or change the font to see it differently\n- Read backwards, one sentence at a time, to find typos\n\n> Tip: Keep a personal error list of mistakes that you repeat, such as comma splices, and check for them on every draft.\n\nAsk a friend or tutor to read for clarity. If they cannot restate your argument, it needs more work."
+          },
+          {
+            "title": "Avoiding Plagiarism and Citing Sources",
+            "minutes": 7,
+            "body": "Plagiarism means presenting someone else's words, ideas or work as your own. It can be deliberate or accidental, and universities treat both seriously. The remedy is careful note-taking and clear citation.\n\n## What needs a citation\n\n- Direct quotations\n- Paraphrased or summarised ideas from a source\n- Statistics, data, images and diagrams\n- Unique concepts or arguments that are not common knowledge\n\nCommon knowledge, such as the fact that water boils at 100 degrees Celsius at sea level, normally does not need a citation. If you are unsure, cite.\n\n## Two parts of every citation\n\n- An in-text citation in the body, giving brief details\n- A reference list or bibliography at the end with full details\n\n## Common styles\n\n- APA: author and year, popular in social sciences\n- MLA: author and page number, popular in humanities\n- Chicago: footnotes or author-date, popular in history\n\nYour course will say which to use. Follow it consistently.\n\n    APA in-text:   (Okafor, 2020)\n    MLA in-text:   (Okafor 14)\n\n## Avoiding accidental plagiarism\n\n- Write the source details beside every note\n- Use quotation marks in notes when copying words exactly\n- Paraphrase from understanding, not with the source open in front of you\n- Cite when you paraphrase\n\n## Tools and help\n\nReference managers such as Zotero can build bibliographies automatically, but always check their output. Many universities also offer free referencing guides and writing centre appointments.\n\n> Tip: When in doubt, ask your instructor or writing centre before submitting rather than afterwards.\n\nUsing sources honestly makes your argument stronger, because readers can trace and trust your evidence."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "title": "ENG 120 Checkpoint Quiz",
+      "description": "Check your grasp of prompts, theses, paragraphs, evidence, revision and citation.",
+      "minutes": 10,
+      "passMark": 60,
+      "questions": [
+        {
+          "prompt": "An essay prompt asks you to \"evaluate\" a policy. What does this require?",
+          "options": [
+            "Only describing what the policy says",
+            "Listing every law related to it",
+            "Copying expert opinions",
+            "Judging how effective or valid the policy is, with reasons"
+          ],
+          "answerIndex": 3,
+          "explanation": "Evaluate calls for a reasoned judgement, not just description."
+        },
+        {
+          "prompt": "Which sentence is the strongest thesis statement?",
+          "options": [
+            "Many people use social media.",
+            "Because it rewards outrage, social media should be redesigned to slow the spread of political posts.",
+            "Social media is bad.",
+            "This essay is about social media."
+          ],
+          "answerIndex": 1,
+          "explanation": "It is arguable, specific and gives a reason, unlike a fact, a vague opinion or an announcement."
+        },
+        {
+          "prompt": "In the TEEL pattern, what is the purpose of the Explanation step?",
+          "options": [
+            "To show how the evidence supports your point",
+            "To introduce the paragraph topic",
+            "To list further quotations",
+            "To summarise the whole essay"
+          ],
+          "answerIndex": 0,
+          "explanation": "Explanation connects evidence to the argument so the reader sees why it matters."
+        },
+        {
+          "prompt": "Which approach to paraphrasing is correct?",
+          "options": [
+            "Swap a few words and skip the citation",
+            "Copy the passage and put it in italics",
+            "Restate the idea in new wording and structure and still cite the source",
+            "Paraphrase only when you cannot find a quote"
+          ],
+          "answerIndex": 2,
+          "explanation": "A paraphrase needs new wording and structure, and still needs a citation because the idea is not yours."
+        },
+        {
+          "prompt": "In which order should the three revision passes be done?",
+          "options": [
+            "Proofreading, editing, revising",
+            "Revising, editing, proofreading",
+            "Editing, proofreading, revising",
+            "Revising, proofreading, editing"
+          ],
+          "answerIndex": 1,
+          "explanation": "Fix big-picture issues first so you do not polish sentences that you later delete."
+        },
+        {
+          "prompt": "A 1,500 word essay has an introduction of about 150 words. What fraction of the essay is the introduction?",
+          "options": [
+            "One fifth",
+            "One twentieth",
+            "One quarter",
+            "One tenth"
+          ],
+          "answerIndex": 3,
+          "explanation": "150 divided by 1,500 equals 0.1, which is one tenth."
+        }
+      ]
+    },
+    "assignment": {
+      "title": "Thesis and Paragraph Workshop",
+      "brief": "Choose a prompt from your own studies or the instructor list. Write a narrowed research question, a thesis statement using the \"Although... because...\" formula, and one complete 150-word body paragraph in TEEL form that cites at least one credible source in a style your course uses. Add a 75-word note explaining how you judged the source and what you would revise in a second draft. Submit everything as one document with your reference list at the end.",
+      "points": 80,
+      "dueInDays": 14
+    },
+    "materials": [
+      {
+        "title": "Purdue OWL: Essay Writing",
+        "description": "Free guidance from Purdue's Online Writing Lab on planning, structuring and developing essays.",
+        "kind": "link",
+        "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/index.html"
+      },
+      {
+        "title": "Khan Academy: Grammar",
+        "description": "Free lessons and practice for sentence structure, punctuation and style.",
+        "kind": "link",
+        "url": "https://www.khanacademy.org/humanities/grammar"
+      }
+    ]
+  }
+]

@@ -1,0 +1,529 @@
+[
+  {
+    "code": "COMP 101",
+    "title": "Programming Foundations with Python",
+    "summary": "Learn to write, run and debug small Python programs using variables, decisions, loops, lists and functions.",
+    "description": "This course introduces programming through Python, a language designed to be readable. You will move from storing values to making decisions, repeating work and organising code into functions. Every lesson ends with short experiments you can run on your own machine.",
+    "subject": "Computing",
+    "level": "Beginner",
+    "tutor": 0,
+    "outcomes": [
+      "You will be able to store and combine values using variables, numbers and strings.",
+      "You will be able to control program flow with if statements and loops.",
+      "You will be able to organise data in lists and reusable code in functions.",
+      "You will be able to read an error message and debug a failing script step by step."
+    ],
+    "tags": [
+      "python",
+      "programming",
+      "beginners",
+      "logic",
+      "debugging"
+    ],
+    "modules": [
+      {
+        "title": "Module 1: Values and Variables",
+        "lessons": [
+          {
+            "title": "What a program is and your first script",
+            "minutes": 5,
+            "body": "A program is a list of instructions that a computer follows from top to bottom. Python reads your file one line at a time, runs each instruction, and stops at the end. Unlike a human reader, it never guesses what you meant, so small details such as spelling and punctuation matter.\n\n## Running Python\n\nSave the following line in a file called `hello.py`, then run it with `python hello.py` in a terminal:\n\n    print(\"Hello, world\")\n\nThe word `print` is a function that shows text on the screen. The text inside quotation marks is called a string. The brackets hold the information the function should work with.\n\n## Comments\n\nAnything after a `#` symbol is ignored by Python. Comments are notes for humans, and good ones explain why you did something rather than repeating what the code already says.\n\n    # Greet the user before the lesson starts\n    print(\"Welcome back\")\n\n## Indentation and order\n\nPython uses spaces at the start of a line to group instructions. You will meet this properly when we reach decisions and loops. For now, remember that every line in a simple script should start in the first column unless Python asks otherwise.\n\n## How to learn this\n\n- Type examples yourself instead of copying them, because typing builds memory.\n- Change one thing at a time and predict the result before you run it.\n- Read error messages slowly. They usually name the line that went wrong.\n\n> Tip: a program that prints something is easier to understand than one that runs silently, so print often while you learn.\n\nBy the end of this module you will be able to store information, calculate with it and show the result. That is the core of almost every program ever written, from calculators to games."
+          },
+          {
+            "title": "Variables and data types",
+            "minutes": 6,
+            "body": "A variable is a name attached to a value, so you can use the value later. You create one with the equals sign, which in Python means \"assign\", not \"is mathematically equal to\".\n\n    age = 17\n    name = \"Priya\"\n    price = 4.50\n    is_member = True\n\nEach value has a type. The four you will use most are:\n\n- `int` for whole numbers such as `17`\n- `float` for decimals such as `4.50`\n- `str` for text such as `\"Priya\"`\n- `bool` for `True` or `False`\n\nYou can check a type with `type(age)`, which is handy when something behaves strangely.\n\n## Naming rules\n\nNames can contain letters, digits and underscores but cannot start with a digit or contain spaces. By convention Python programmers use lowercase words joined by underscores, such as `total_price`. Choose names that describe the content, because `total_price` tells a reader far more than `x`.\n\n## Changing values\n\nA variable can be reassigned at any time, and the new value can even use the old one:\n\n    score = 10\n    score = score + 5\n    print(score)\n\nThis prints `15`. Python first works out the right-hand side, then stores the result back in `score`.\n\n## Converting types\n\nText and numbers are different things. The text `\"5\"` is not the number `5`, and adding them causes an error. Use `int(\"5\")`, `float(\"2.5\")` or `str(5)` to convert between them.\n\n> Tip: if you get a TypeError, print the type of each variable involved. A number stored as text is the most common cause.\n\nPractise by creating three variables about yourself and printing a sentence that uses all of them.",
+            "videoId": "cQT33yu9pY8"
+          },
+          {
+            "title": "Operators, strings and user input",
+            "minutes": 6,
+            "body": "Operators let you calculate and combine values. The arithmetic operators are `+`, `-`, `*` and `/` for division. Python also has `//` for whole-number division, `%` for the remainder, and `` for powers.\n\n    print(7 / 2)    # 3.5\n    print(7 // 2)   # 3\n    print(7 % 2)    # 1\n    print(2  3)   # 8\n\nPython follows the usual order of operations, and brackets let you control it. `2 + 3 * 4` gives `14`, while `(2 + 3) * 4` gives `20`.\n\n## Working with strings\n\nThe `+` operator joins strings, and `*` repeats them. An f-string is the cleanest way to place variables inside text. Put an `f` before the opening quote and wrap variables in curly braces:\n\n    name = \"Sam\"\n    items = 3\n    print(f\"{name} bought {items} items\")\n\nUseful string tools include `len(text)` for the length, `text.upper()` and `text.lower()` for case, and `text.strip()` to remove stray spaces at the ends.\n\n## Asking the user\n\nThe `input()` function pauses and waits for the user to type. It always returns a string, even when the user types digits, so convert it when you need a number:\n\n    raw = input(\"How many tickets? \")\n    tickets = int(raw)\n    print(f\"Total: {tickets * 12}\")\n\n## Common mistakes\n\n- Forgetting to convert input, which leads to a TypeError when you calculate.\n- Mixing up `=` (assign) and `==` (compare), which matters in the next module.\n\n> Tip: build programs in small steps. Get input working, print it back, and only then add the calculation.\n\nTry writing a tip calculator that asks for a bill amount and a percentage, then prints the tip."
+          }
+        ]
+      },
+      {
+        "title": "Module 2: Making Decisions and Repeating Work",
+        "lessons": [
+          {
+            "title": "Decisions with if, elif and else",
+            "minutes": 6,
+            "body": "Programs become useful when they can choose between actions. The `if` statement runs a block of code only when a condition is true.\n\n    temperature = 31\n    if temperature > 30:\n        print(\"It is hot\")\n    elif temperature > 15:\n        print(\"It is mild\")\n    else:\n        print(\"It is cold\")\n\nNotice the colon at the end of each condition line and the four spaces before each indented line. The indented lines form the block that belongs to the condition. Python checks the conditions in order and runs only the first one that is true.\n\n## Comparison operators\n\nThese produce a bool, which is `True` or `False`:\n\n- `==` equal to\n- `!=` not equal to\n- `<`, `>`, `<=`, `>=` for ordering\n\nRemember that a single `=` assigns a value and a double `==` compares two values. Mixing them up is one of the most common beginner errors.\n\n## Combining conditions\n\nUse `and`, `or` and `not` to build richer tests:\n\n    age = 16\n    has_ticket = True\n    if age >= 13 and has_ticket:\n        print(\"Welcome in\")\n\nWith `and`, both sides must be true. With `or`, at least one must be true. `not` flips a result.\n\n## Order matters\n\nBecause Python stops at the first true branch, put the most specific condition first. If you tested `temperature > 15` before `temperature > 30`, the hot message would never appear.\n\n> Tip: say the condition aloud in plain English before you type it. If the sentence sounds wrong, the code probably is too.\n\nPractise by writing a program that asks for an exam mark and prints a grade band such as pass, merit or distinction."
+          },
+          {
+            "title": "Loops: for and while",
+            "minutes": 6,
+            "body": "A loop repeats a block of code so you do not have to write it many times. Python has two main kinds.\n\n## The for loop\n\nUse `for` when you know what you want to loop over. The `range()` function produces a sequence of numbers starting at zero:\n\n    for i in range(3):\n        print(\"Round\", i)\n\nThis prints rounds 0, 1 and 2. The stop value is never included. You can also give a start and stop, such as `range(1, 4)`, which produces 1, 2 and 3.\n\nA `for` loop also works directly on text and on lists:\n\n    for letter in \"cat\":\n        print(letter)\n\n## The while loop\n\nUse `while` when you want to repeat until something changes:\n\n    count = 3\n    while count > 0:\n        print(count)\n        count = count - 1\n    print(\"Liftoff\")\n\nThe loop checks the condition before every pass. If nothing inside the loop ever changes the condition, the program never stops. That is an infinite loop. Press Ctrl+C in the terminal to interrupt it.\n\n## Accumulating a result\n\nA very common pattern is to start a variable at zero and add to it in each pass:\n\n    total = 0\n    for n in range(1, 6):\n        total = total + n\n    print(total)\n\nThis prints `15`.\n\n## break and continue\n\n`break` leaves a loop immediately, and `continue` skips to the next pass.\n\n> Tip: if a loop misbehaves, print the loop variable on every pass. Watching the values change usually reveals the mistake.\n\nPractise by printing the multiplication table for a number the user chooses."
+          },
+          {
+            "title": "Lists and working with collections",
+            "minutes": 6,
+            "body": "A list stores several values in order inside square brackets. It is the first data structure most programmers learn, and you will use it constantly.\n\n    scores = [72, 88, 95, 60]\n    names = [\"Ana\", \"Ben\", \"Chen\"]\n\nEach item has a position called an index, and indexes start at zero. So `scores[0]` is `72` and `scores[-1]` is the last item, `60`. Asking for an index that does not exist causes an IndexError.\n\n## Changing a list\n\n- `scores.append(80)` adds an item to the end.\n- `scores.remove(60)` removes the first matching value.\n- `scores[1] = 90` replaces the item at index 1.\n- `len(scores)` returns how many items there are.\n\n## Looping over a list\n\n    total = 0\n    for s in scores:\n        total = total + s\n    average = total / len(scores)\n    print(average)\n\nPython also provides `sum(scores)`, `min(scores)` and `max(scores)`, so you rarely need to write that loop by hand for simple totals. Learning the manual version first helps you understand what those functions do.\n\n## Slicing and checking\n\nA slice takes part of a list: `scores[1:3]` returns the items at indexes 1 and 2. The stop index is excluded, just like `range`. To test whether a value is present, use `in`:\n\n    if \"Ben\" in names:\n        print(\"Found Ben\")\n\n## Sorting\n\n`sorted(scores)` returns a new ordered list, while `scores.sort()` changes the original.\n\n> Tip: when you only need to read a list, prefer `sorted()` so you keep the original order available.\n\nPractise by asking for five numbers, storing them in a list, and printing the largest, smallest and average."
+          }
+        ]
+      },
+      {
+        "title": "Module 3: Functions and Debugging",
+        "lessons": [
+          {
+            "title": "Writing and using functions",
+            "minutes": 6,
+            "body": "A function is a named block of code that you can run whenever you need it. Functions remove repetition, give ideas a clear name and make large programs manageable. You define one with `def`.\n\n    def greet(name):\n        return f\"Hello, {name}\"\n\n    message = greet(\"Maya\")\n    print(message)\n\nThe word inside the brackets, `name`, is a parameter: a placeholder for information the function receives. The value you pass when calling it, `\"Maya\"`, is an argument. The `return` statement sends a result back to the caller.\n\n## Print versus return\n\nBeginners often confuse these. `print` shows text to a person but gives nothing back to the program. `return` hands a value back so you can store it or use it in a calculation. A function that only prints cannot easily be reused inside another calculation.\n\n## Default values and several parameters\n\n    def area(width, height=1):\n        return width * height\n\n    print(area(4, 5))   # 20\n    print(area(4))      # 4\n\nParameters with defaults are optional when calling.\n\n## Scope\n\nVariables created inside a function exist only while it runs. This is called local scope, and it stops different parts of your program from accidentally interfering with each other. If a function needs data, pass it in as an argument and return the answer.\n\n## Designing good functions\n\n- Give each function one clear job.\n- Choose a verb for its name, such as `calculate_total`.\n- Keep it short enough to read without scrolling.\n\n> Tip: if you copy and paste the same lines a second time, that is your signal to turn them into a function.\n\nPractise by writing a function that takes a list of numbers and returns the average, then call it with two different lists."
+          },
+          {
+            "title": "Debugging: reading errors and fixing bugs",
+            "minutes": 7,
+            "body": "Every programmer writes bugs. What separates beginners from confident developers is a calm, repeatable method for finding them.\n\n## Read the traceback\n\nWhen Python fails, it prints a traceback. Read it from the bottom. The last line names the error type and a short message, and the line above it shows where the problem happened.\n\n- `SyntaxError` means Python could not understand the line, often a missing colon, bracket or quotation mark.\n- `NameError` means you used a name that does not exist yet, usually through a typo.\n- `TypeError` means a value had the wrong type, such as adding a string to a number.\n- `IndexError` means you asked for a list position that is not there.\n- `IndentationError` means the spaces at the start of a line do not match the block structure.\n\n## A debugging routine\n\n1. Reproduce the problem reliably.\n2. Read the error message in full.\n3. Print the values of the variables near the failing line.\n4. Form one guess and test only that.\n5. Change one thing at a time and run again.\n\nHere is a small example of a logic bug, where the program runs but gives the wrong answer:\n\n    total = 0\n    for n in range(1, 5):\n        total = total + n\n    print(total)\n\nA learner expects the sum of 1 to 5, which is 15, but gets 10. The reason is that `range(1, 5)` stops before 5. The fix is `range(1, 6)`.\n\n## Explain it aloud\n\nDescribing your code line by line to a friend, or even to a toy, often exposes the mistake. This is called rubber duck debugging.\n\n> Tip: never fix two things at once. If the bug changes or vanishes, you will not know which edit mattered.\n\nFinish by taking one of your earlier programs, deliberately breaking it in three ways, and noting which error each one produces."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "title": "Programming Foundations Quiz",
+      "description": "Check your understanding of variables, decisions, loops, lists, functions and debugging.",
+      "minutes": 10,
+      "passMark": 60,
+      "questions": [
+        {
+          "prompt": "What does the expression 7 // 2 produce in Python?",
+          "options": [
+            "3.5",
+            "3",
+            "1",
+            "4"
+          ],
+          "answerIndex": 1,
+          "explanation": "The // operator performs whole-number division, so 7 // 2 is 3."
+        },
+        {
+          "prompt": "The input() function always returns which type?",
+          "options": [
+            "int",
+            "float",
+            "str",
+            "bool"
+          ],
+          "answerIndex": 2,
+          "explanation": "input() returns text, so you must convert it with int() or float() before calculating."
+        },
+        {
+          "prompt": "Which line correctly tests whether score is equal to 10?",
+          "options": [
+            "if score = 10:",
+            "if score == 10:",
+            "if score => 10:",
+            "if score is equal 10:"
+          ],
+          "answerIndex": 1,
+          "explanation": "A double equals sign compares values, whereas a single equals sign assigns."
+        },
+        {
+          "prompt": "What values does range(1, 4) produce?",
+          "options": [
+            "1, 2, 3, 4",
+            "0, 1, 2, 3",
+            "1, 2, 3",
+            "2, 3, 4"
+          ],
+          "answerIndex": 2,
+          "explanation": "range starts at the first value and stops before the second, so it gives 1, 2 and 3."
+        },
+        {
+          "prompt": "Given names = [\"Ana\", \"Ben\", \"Chen\"], what is names[-1]?",
+          "options": [
+            "Ana",
+            "Ben",
+            "An IndexError",
+            "Chen"
+          ],
+          "answerIndex": 3,
+          "explanation": "A negative index counts from the end of the list, so -1 is the last item."
+        },
+        {
+          "prompt": "What is the main difference between print and return inside a function?",
+          "options": [
+            "return sends a value back to the caller, while print only displays it",
+            "print sends a value back while return displays it",
+            "They are identical in effect",
+            "return can only be used with numbers"
+          ],
+          "answerIndex": 0,
+          "explanation": "return hands a result to the calling code so it can be reused, whereas print only shows text on screen."
+        }
+      ]
+    },
+    "assignment": {
+      "title": "Build a Quiz Score Tracker",
+      "brief": "Write a Python program that asks the user for the number of quiz scores they want to enter, then reads each score using a loop and stores it in a list. Create at least two functions: one that returns the average of the list, and one that returns a grade band (for example Pass, Merit or Distinction) using if, elif and else. Print the highest score, lowest score, average and grade. Add comments explaining your choices, and test it with three different sets of scores. Submit your .py file and a short note describing one bug you fixed.",
+      "points": 50,
+      "dueInDays": 14
+    },
+    "materials": [
+      {
+        "title": "The Python Tutorial (official)",
+        "description": "The official walkthrough of Python from the Python Software Foundation, starting with using Python as a calculator.",
+        "kind": "link",
+        "url": "https://docs.python.org/3/tutorial/introduction.html"
+      },
+      {
+        "title": "Python control flow tools",
+        "description": "Official documentation covering if statements, for loops, range, and defining functions.",
+        "kind": "link",
+        "url": "https://docs.python.org/3/tutorial/controlflow.html"
+      }
+    ]
+  },
+  {
+    "code": "WEB 110",
+    "title": "Build Your First Website with HTML and CSS",
+    "summary": "Create and style a responsive, accessible one-page website from scratch using semantic HTML, CSS and Flexbox.",
+    "description": "This hands-on course takes you from an empty text file to a finished, mobile-friendly web page. You will learn how HTML structures content, how CSS controls its appearance, and how to lay out a page that works on any screen. No prior coding experience is needed, only a text editor and a browser.",
+    "subject": "Computing",
+    "level": "Beginner",
+    "tutor": 1,
+    "outcomes": [
+      "You will be able to write a valid HTML page using headings, links, images and lists.",
+      "You will be able to style elements with CSS selectors, colours and typography.",
+      "You will be able to explain and apply the box model to control spacing.",
+      "You will be able to build a responsive layout with Flexbox and a media query."
+    ],
+    "tags": [
+      "html",
+      "css",
+      "web design",
+      "flexbox",
+      "responsive"
+    ],
+    "modules": [
+      {
+        "title": "Module 1: Structuring Content with HTML",
+        "lessons": [
+          {
+            "title": "How a web page is built",
+            "minutes": 5,
+            "body": "When you visit a website, your browser asks a server for a file, receives it, and turns it into the page you see. The file is written in HTML, which stands for HyperText Markup Language. HTML does not describe how things look. It describes what things are: a heading, a paragraph, a link, a list.\n\n## Elements and tags\n\nAn element is usually made from an opening tag, some content and a closing tag:\n\n    <p>This is a paragraph.</p>\n\nSome elements, such as images, have no content and need no closing tag. Tags can also carry attributes, which are extra settings written as name and value pairs:\n\n    <a href=\"about.html\">About us</a>\n\n## The page skeleton\n\nEvery HTML page follows the same outline. Save this as `index.html` and open it in your browser:\n\n    <!DOCTYPE html>\n    <html lang=\"en\">\n      <head>\n        <meta charset=\"UTF-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n        <title>My first page</title>\n      </head>\n      <body>\n        <h1>Hello, web</h1>\n      </body>\n    </html>\n\nThe `head` holds information about the page, including the title shown in the browser tab. The `body` holds everything visitors see. The `lang` attribute helps screen readers pronounce the content correctly, and the viewport line is essential for mobile screens.\n\n## Working habits\n\n- Indent child elements so you can see the nesting.\n- Always close what you open.\n- Refresh the browser after each save to see your change.\n\n> Tip: right-click any page and choose Inspect to see its HTML. Reading real pages is one of the fastest ways to learn.\n\nNext, you will fill the body with proper content."
+          },
+          {
+            "title": "Text, links and images",
+            "minutes": 6,
+            "body": "Most pages are built from a small set of content elements. Learning them well covers a large share of everyday web work.\n\n## Headings and paragraphs\n\nHeadings run from `h1` to `h6`. Use one `h1` for the main title of the page, then `h2` for major sections and `h3` for sub-sections. Choose levels by meaning, not by how big they look, because CSS can change size later. Wrap normal text in `p`, and use `strong` for important text and `em` for emphasis.\n\n## Links\n\nThe anchor element creates a link. Its `href` attribute is the destination:\n\n    <a href=\"https://developer.mozilla.org\">MDN Web Docs</a>\n    <a href=\"contact.html\">Contact</a>\n\nA link to another file in your own folder uses a relative path, while a link to another site uses the full address. Write descriptive link text. \"Read the opening hours\" is far more useful than \"click here\", especially for screen reader users.\n\n## Images\n\n    <img src=\"photos/team.jpg\" alt=\"Three students working at a laptop\" width=\"600\" height=\"400\">\n\nThe `alt` attribute describes the image for people who cannot see it and appears if the file fails to load. If an image is purely decorative, use an empty `alt=\"\"`. Setting width and height lets the browser reserve space, which stops the page jumping while it loads.\n\n## Common mistakes\n\n- Spaces or capital letters in file names, which break paths on some servers.\n- A missing `alt` attribute.\n- Using headings only to make text bigger.\n\n> Tip: keep images in their own folder and use short, lowercase file names with hyphens, such as `team-photo.jpg`.\n\nPractise by building a page about a hobby with a title, two sections, one image and one link to a reliable source."
+          },
+          {
+            "title": "Lists and semantic layout",
+            "minutes": 5,
+            "body": "Lists and layout elements give a page its shape. They also help search engines and assistive technology understand your content.\n\n## Lists\n\nUse `ul` for an unordered list, `ol` for a numbered one, and `li` for each item:\n\n    <ul>\n      <li>HTML</li>\n      <li>CSS</li>\n    </ul>\n\nChoose an ordered list when sequence matters, such as recipe steps. Navigation menus are also lists of links, and marking them up this way is good practice.\n\n## Semantic elements\n\nOlder pages used generic `div` boxes for everything. Modern HTML offers elements whose names state their purpose:\n\n- `header` for introductory content at the top of a page or section\n- `nav` for a group of main navigation links\n- `main` for the central content, used once per page\n- `section` for a themed group of content, usually with a heading\n- `article` for self-contained content such as a blog post\n- `footer` for closing information such as contact details\n\nA simple page might look like this:\n\n    <body>\n      <header><h1>Green Bikes</h1></header>\n      <nav>\n        <ul>\n          <li><a href=\"#about\">About</a></li>\n          <li><a href=\"#shop\">Shop</a></li>\n        </ul>\n      </nav>\n      <main>\n        <section id=\"about\">...</section>\n      </main>\n      <footer>Contact us</footer>\n    </body>\n\nThe `id` attribute names an element, and a link such as `#about` jumps to it.\n\n## Why it matters\n\nScreen reader users can jump straight to the navigation or main content when these elements are present. Search engines also use them to understand what matters on the page.\n\n> Tip: use `div` only when no semantic element fits, such as a wrapper you need purely for styling.\n\nAdd a header, navigation, main area and footer to the page you built earlier."
+          }
+        ]
+      },
+      {
+        "title": "Module 2: Styling with CSS",
+        "lessons": [
+          {
+            "title": "CSS basics: selectors and properties",
+            "minutes": 6,
+            "body": "CSS stands for Cascading Style Sheets. It controls the colour, size, spacing and position of the elements that HTML provides.\n\n## Linking a stylesheet\n\nCreate a file called `style.css` and connect it inside the `head` of your page:\n\n    <link rel=\"stylesheet\" href=\"style.css\">\n\n## Rules\n\nA CSS rule has a selector, which chooses elements, and a block of declarations, each made of a property and a value:\n\n    h1 {\n      color: #1b4965;\n      font-size: 2rem;\n    }\n\n## Selector types\n\n- A type selector such as `p` targets every paragraph.\n- A class selector such as `.card` targets elements with `class=\"card\"`. Classes are reusable and are your main tool.\n- An id selector such as `#about` targets one unique element.\n- A descendant selector such as `nav a` targets links inside a nav.\n\nUse classes for most styling, because they are flexible and easy to override.\n\n## The cascade\n\nWhen two rules affect the same property, the browser picks a winner. More specific selectors beat less specific ones, and when specificity is equal, the rule that appears later wins. Properties like `color` and `font-family` are also inherited, so setting them on `body` affects the whole page.\n\n## Units\n\nPixels (`px`) are fixed. Relative units adapt better: `rem` scales with the root font size, `%` relates to the parent, and `vw` to the viewport width.\n\n> Tip: if a style is not applying, open the browser developer tools, select the element, and look at the Styles panel. Crossed-out rules show what was overridden.\n\nStyle your page by changing the fonts and heading colours, then give two paragraphs a class and style them differently."
+          },
+          {
+            "title": "The box model: spacing and sizing",
+            "minutes": 6,
+            "body": "Every element on a web page is a rectangular box. Understanding the layers of that box explains most layout puzzles.\n\n## The four layers\n\nFrom the inside out, each box has:\n\n- Content, which is the text or image itself\n- Padding, the space between the content and the border\n- Border, a line around the padding\n- Margin, the space outside the border that separates the box from its neighbours\n\n    .card {\n      padding: 16px;\n      border: 2px solid #5fa8d3;\n      margin: 24px 0;\n    }\n\nWith two values, `24px 0` means 24 pixels top and bottom and zero left and right. With four values, the order is top, right, bottom, left, which you can remember as clockwise from the top.\n\n## How big is a box?\n\nBy default, width describes only the content, so padding and border are added on top. A box with `width: 300px` and `padding: 20px` ends up 340 pixels wide, which surprises many beginners. Fix this by switching to a friendlier rule that includes padding and border in the width:\n\n    * {\n      box-sizing: border-box;\n    }\n\nMost developers put this at the top of every stylesheet.\n\n## Margin collapsing and centring\n\nVertical margins between neighbouring blocks can merge into one, using the larger value rather than adding them. To centre a block horizontally, give it a width and set the left and right margins to auto:\n\n    .container {\n      max-width: 720px;\n      margin: 0 auto;\n    }\n\n> Tip: in developer tools, hover over an element to see a coloured diagram of its margin, border and padding. It makes the model visible.\n\nPractise by turning three paragraphs into bordered cards with padding, spacing between them, and a centred container."
+          },
+          {
+            "title": "Colour, typography and readability",
+            "minutes": 5,
+            "body": "Good styling is not decoration. It makes text easy to read and guides the eye to what matters.\n\n## Colour formats\n\nCSS accepts several ways to write a colour. Names such as `tomato` are simple, hex codes such as `#1b4965` are common in design tools, and `rgb(27, 73, 101)` states the red, green and blue amounts directly. Define a small palette of three or four colours and reuse it. A reliable approach is one dark text colour, one light background, and one accent colour for links and buttons.\n\n## Contrast\n\nText must stand out clearly from its background. Light grey text on white may look elegant but is hard for many people to read. The Web Content Accessibility Guidelines recommend a contrast ratio of at least 4.5 to 1 for normal text. Free checkers online let you test a pair of colours in seconds.\n\n## Fonts\n\n    body {\n      font-family: system-ui, Arial, sans-serif;\n      font-size: 1rem;\n      line-height: 1.6;\n      color: #222;\n    }\n\nThe `font-family` list is a fallback chain: the browser uses the first font available. Always end with a generic family such as `sans-serif`. A `line-height` of about 1.5 to 1.7 makes paragraphs comfortable to read.\n\n## Readable line length\n\nVery long lines tire the eye. Limiting a text column with `max-width: 65ch` keeps it to roughly 65 characters per line, a well-tested comfortable measure.\n\n## Other helpful properties\n\n- `text-align` to align text\n- `font-weight` for bold or light\n- `text-decoration` to remove or add underlines\n\n> Tip: never rely on colour alone to carry meaning. Pair a red error message with an icon or the word \"Error\".\n\nApply a palette and font stack to your page, then check its contrast."
+          }
+        ]
+      },
+      {
+        "title": "Module 3: Layout and Publishing",
+        "lessons": [
+          {
+            "title": "Flexbox layout",
+            "minutes": 7,
+            "body": "Flexbox is a CSS layout system for arranging items in a row or a column. It replaced older tricks and makes common layouts simple.\n\n## Turning it on\n\nSet `display: flex` on a parent, called the flex container. Its direct children become flex items and line up in a row.\n\n    .menu {\n      display: flex;\n      gap: 16px;\n      justify-content: space-between;\n      align-items: center;\n    }\n\nHere is what each property does:\n\n- `gap` adds space between items.\n- `justify-content` positions items along the main axis, which is horizontal by default. Values include `flex-start`, `center`, `space-between` and `space-around`.\n- `align-items` positions items along the cross axis, which is vertical by default.\n- `flex-direction: column` switches the main axis to vertical.\n- `flex-wrap: wrap` lets items move onto a new line when space runs out.\n\n## Sizing items\n\nThe `flex` shorthand on an item controls how it grows. For example, `flex: 1` tells every item to share the free space equally, which gives equal-width columns:\n\n    .cards {\n      display: flex;\n      gap: 20px;\n    }\n    .cards .card {\n      flex: 1;\n    }\n\n## A classic example: centring\n\nTo centre something both ways inside a box with a set height:\n\n    .hero {\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      min-height: 60vh;\n    }\n\n> Tip: remember that flexbox works in one dimension at a time. For full grids of rows and columns, look at CSS Grid later.\n\nBuild a navigation bar with a logo on the left and links on the right, and a row of three equal cards below it."
+          },
+          {
+            "title": "Responsive design and publishing",
+            "minutes": 7,
+            "body": "More than half of web visits happen on phones, so every page you build should adapt to small screens. This idea is called responsive design.\n\n## Start with mobile\n\nMake sure your page contains the viewport meta tag from the first lesson. Then write styles for a narrow screen first, because a single column of content is simple and works everywhere. Add enhancements for wider screens afterwards.\n\n## Fluid images\n\nPrevent images from overflowing their container with:\n\n    img {\n      max-width: 100%;\n      height: auto;\n    }\n\n## Media queries\n\nA media query applies styles only when a condition is true. This one switches a column of cards into a row on screens at least 700 pixels wide:\n\n    .cards {\n      display: flex;\n      flex-direction: column;\n      gap: 16px;\n    }\n\n    @media (min-width: 700px) {\n      .cards {\n        flex-direction: row;\n      }\n    }\n\nChoose breakpoints where your content starts to look awkward, not to match particular devices. Drag the browser window narrower and wider and notice when the design needs help.\n\n## Testing\n\nUse the device toolbar in your browser's developer tools to preview phone and tablet sizes. Also check that you can reach every link using only the Tab key.\n\n## Publishing\n\nA static site made of HTML, CSS and images can be hosted for free. Popular options include GitHub Pages, Netlify and Cloudflare Pages. You upload or connect your project folder, and the service gives you a public web address. Make sure the main file is named `index.html`, so the server finds it automatically.\n\n> Tip: before publishing, validate your HTML with the free W3C validator and fix any errors it reports.\n\nFinish by making your page work at 360 pixels wide, then publish it."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "title": "HTML and CSS Basics Quiz",
+      "description": "Test your knowledge of page structure, selectors, the box model, Flexbox and responsive design.",
+      "minutes": 10,
+      "passMark": 60,
+      "questions": [
+        {
+          "prompt": "Which part of an HTML page holds the content visitors actually see?",
+          "options": [
+            "The head element",
+            "The title element",
+            "The body element",
+            "The meta element"
+          ],
+          "answerIndex": 2,
+          "explanation": "The body holds visible content, while the head contains information about the page."
+        },
+        {
+          "prompt": "Why should an informative image have an alt attribute?",
+          "options": [
+            "It makes the image load faster",
+            "It describes the image for people who cannot see it",
+            "It changes the image size",
+            "It is required to link the image"
+          ],
+          "answerIndex": 1,
+          "explanation": "Alt text is read by screen readers and appears if the image fails to load."
+        },
+        {
+          "prompt": "Which CSS selector targets all elements with class=\"card\"?",
+          "options": [
+            "#card",
+            "card",
+            ".card",
+            "*card"
+          ],
+          "answerIndex": 2,
+          "explanation": "A full stop before the name selects by class, while a hash selects by id."
+        },
+        {
+          "prompt": "In the box model, which layer sits between the content and the border?",
+          "options": [
+            "Margin",
+            "Padding",
+            "Gap",
+            "Outline"
+          ],
+          "answerIndex": 1,
+          "explanation": "Padding is the space inside the border around the content; margin is outside the border."
+        },
+        {
+          "prompt": "Which declaration makes a container lay out its children in a row with space between them?",
+          "options": [
+            "display: flex; gap: 16px;",
+            "display: block; gap: 16px;",
+            "position: row;",
+            "float: flex;"
+          ],
+          "answerIndex": 0,
+          "explanation": "Setting display to flex turns on Flexbox, and gap adds spacing between the items."
+        },
+        {
+          "prompt": "What does @media (min-width: 700px) do?",
+          "options": [
+            "Applies its styles only when the viewport is at least 700px wide",
+            "Sets every element to 700px wide",
+            "Applies its styles only below 700px",
+            "Hides the page on small screens"
+          ],
+          "answerIndex": 0,
+          "explanation": "A min-width media query activates its rules once the screen reaches the stated width."
+        }
+      ]
+    },
+    "assignment": {
+      "title": "Build a One-Page Personal Site",
+      "brief": "Create a responsive one-page website about a topic you care about, such as a hobby, a local club or a portfolio. It must use semantic elements (header, nav, main, section, footer), at least one image with meaningful alt text, a list and a working link. Style it in an external stylesheet with a consistent colour palette, readable typography and the box-sizing rule. Use Flexbox for the navigation and a row of cards, plus one media query. Submit your project folder zipped, and the link if you publish it online.",
+      "points": 60,
+      "dueInDays": 14
+    },
+    "materials": [
+      {
+        "title": "MDN: Structuring content with HTML",
+        "description": "Mozilla's beginner learning path covering HTML elements, document structure and semantics.",
+        "kind": "link",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
+      },
+      {
+        "title": "MDN: CSS styling basics",
+        "description": "Mozilla's introduction to selectors, the box model, colours and fonts.",
+        "kind": "link",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics"
+      },
+      {
+        "title": "W3C Web Accessibility Tutorials",
+        "description": "Practical, free guidance on making pages usable for everyone, including images, menus and forms.",
+        "kind": "link",
+        "url": "https://www.w3.org/WAI/tutorials/"
+      }
+    ]
+  },
+  {
+    "code": "DATA 120",
+    "title": "Data Literacy: Reading Charts and Spreadsheets",
+    "summary": "Learn to read tables and charts critically, spot misleading graphs, and use basic spreadsheet formulas to answer questions.",
+    "description": "Data appears in news stories, workplaces and school projects, yet few people are taught to question it. This course shows you how data is organised, how to summarise it in a spreadsheet, and how to judge whether a chart or claim deserves your trust. You will practise on small, realistic examples.",
+    "subject": "Data",
+    "level": "Beginner",
+    "tutor": 2,
+    "outcomes": [
+      "You will be able to organise raw information into a clean, tidy spreadsheet table.",
+      "You will be able to calculate totals, averages and percentages with basic formulas.",
+      "You will be able to choose a suitable chart and recognise misleading ones.",
+      "You will be able to question the source, sample and causal claims behind a statistic."
+    ],
+    "tags": [
+      "data literacy",
+      "spreadsheets",
+      "charts",
+      "statistics",
+      "critical thinking"
+    ],
+    "modules": [
+      {
+        "title": "Module 1: Working with Spreadsheets",
+        "lessons": [
+          {
+            "title": "How data is organised",
+            "minutes": 6,
+            "body": "Data is simply recorded information, but how it is arranged decides how useful it is. Most analysis begins with a table, and a good table follows a few simple rules.\n\n## Rows, columns and variables\n\nIn a tidy table, each row is one observation, such as a single student, order or day. Each column is one variable, meaning a characteristic measured for every observation. A cell holds exactly one value.\n\n    Name    | Year | Test score | Passed\n    Aisha   | 10   | 72         | Yes\n    Daniel  | 10   | 48         | No\n    Mei     | 11   | 85         | Yes\n\n## Types of data\n\n- Numerical data are numbers you can calculate with. Counts such as 12 books are discrete, while measurements such as 1.62 metres are continuous.\n- Categorical data are labels, such as \"Passed\" or a city name. Ordinal categories like small, medium and large have a natural order.\n- Dates and times need a consistent format so they can be sorted.\n\nKnowing the type tells you what you can do. You can average test scores, but averaging a column of phone numbers is meaningless.\n\n## Common structure mistakes\n\n- Merging cells or adding title rows above the headers, which confuses sorting and charts.\n- Putting several values in one cell, such as \"Maths, Art\".\n- Using different spellings for the same category, such as \"UK\" and \"United Kingdom\".\n- Leaving blank rows in the middle of the data.\n\n## Always document\n\nAdd a note describing where the data came from, when it was collected, and what each column means, including the units.\n\n> Tip: give each column one clear header in the first row, and keep that row free of merged cells so sorting and filtering work properly.\n\nTake a messy list from your own life, such as weekly spending, and reorganise it into a tidy table with at least four columns."
+          },
+          {
+            "title": "Spreadsheet formulas that answer questions",
+            "minutes": 7,
+            "body": "A spreadsheet recalculates results automatically when your data changes, so you never need to do the arithmetic by hand. Every formula starts with an equals sign. The steps below work the same in Excel, Google Sheets and LibreOffice Calc.\n\n## Cell references\n\nEach cell has an address made from its column letter and row number, such as `B2`. A range such as `B2:B11` covers a block of cells. Formulas use these addresses instead of typed numbers, so they update when the values change.\n\n## Essential functions\n\n    =SUM(B2:B11)       adds the values\n    =AVERAGE(B2:B11)   the mean\n    =MIN(B2:B11)       the smallest\n    =MAX(B2:B11)       the largest\n    =COUNT(B2:B11)     how many numbers\n\nFor conditions, use `COUNTIF` and `SUMIF`. For example, `=COUNTIF(D2:D11,\"Yes\")` counts how many students passed, and `=SUMIF(A2:A11,\"North\",C2:C11)` totals the sales for the North region.\n\n## Percentages\n\nA percentage is a part divided by the whole. If passes are in `E1` and total students in `E2`, then `=E1/E2` gives a decimal, and formatting the cell as a percentage displays it as, say, 70%. To find percentage change, calculate the new value minus the old value, divided by the old value.\n\n## Fixed references\n\nWhen you copy a formula down a column, its references shift. To keep one reference fixed, add dollar signs, for example `$B$1`. This is called an absolute reference and is vital when every row divides by the same total.\n\n## Sorting and filtering\n\nSorting arranges rows by a column, and filtering hides rows that do not match. Neither changes the underlying data, which makes them safe ways to explore.\n\n> Tip: if a formula returns an odd result, click the cell and check the highlighted range. A range that stops one row short is a classic mistake.\n\nPractise by building a small sales table and answering three questions with formulas rather than by eye."
+          },
+          {
+            "title": "Cleaning data before you trust it",
+            "minutes": 6,
+            "body": "Real data is rarely tidy. Studies of analyst work commonly report that cleaning takes up a large share of the total time, and skipping it leads to wrong answers that look perfectly professional.\n\n## Look before you calculate\n\nStart by scanning the data. Sort each column from smallest to largest and check both ends. A age of 250 or a negative price is a clue that something went wrong. Count the rows and compare the total with what you expected.\n\n## Typical problems\n\n- Missing values: blank cells. Decide whether to remove the row, fill the gap with a sensible value, or leave it and exclude it from calculations. Whatever you do, record it.\n- Duplicates: the same record entered twice, which inflates totals. Most spreadsheets have a Remove Duplicates tool.\n- Inconsistent text: \"london\", \"London \" and \"LONDON\" count as three different values. The `TRIM` and `PROPER` functions fix extra spaces and capitalisation.\n- Wrong types: numbers stored as text, shown by left-aligned digits that will not add up.\n- Outliers: values far from the rest. They might be errors or real unusual cases. Investigate before deleting.\n\n## Keep the original\n\nNever overwrite your raw data. Copy it to a new sheet and clean the copy, so you can always go back and show what you changed.\n\n## Write a change log\n\nA short list such as \"Removed 4 duplicate rows; replaced 'N/A' with blanks\" lets another person trust and repeat your work.\n\n> Tip: when a number surprises you, check the data first. Surprising results are more often caused by data problems than by discoveries.\n\nTake a small dataset with deliberate errors, find at least five problems, and fix them in a copy of the sheet while keeping a log."
+          }
+        ]
+      },
+      {
+        "title": "Module 2: Reading Charts and Summaries",
+        "lessons": [
+          {
+            "title": "Choosing and reading the right chart",
+            "minutes": 6,
+            "body": "A chart is an argument made with shapes. The right type makes your point instantly, and the wrong one hides it. Start by asking what question the chart should answer.\n\n## Matching question to chart\n\n- Comparing categories: use a bar chart. Bars share a baseline, so differences in length are easy to judge. Sort the bars by value unless the categories have a natural order.\n- Change over time: use a line chart, with time running left to right. The line shows the trend between points.\n- Parts of a whole: use a pie or stacked bar only with a few categories. A pie with eight slices is hard to read, and a sorted bar chart usually works better.\n- Relationship between two numbers: use a scatter plot, where each dot is one observation.\n- Distribution of one number: use a histogram, which groups values into bins and shows how many fall in each.\n\n## How to read any chart\n\n1. Read the title and subtitle to learn what is claimed.\n2. Check the axis labels and units. Is it thousands, millions or percent?\n3. Look at the axis scale and where it starts.\n4. Find the legend and what each colour means.\n5. Check the source and date, usually in a small note below.\n6. Only then look for patterns, and describe them in a sentence.\n\n## Good design habits\n\nUse few colours, label directly where possible, and remove clutter such as heavy gridlines. Avoid 3D effects, since they distort sizes and add no information.\n\n> Tip: try writing the headline a chart supports in one sentence, such as \"Sales rose steadily from March to August\". If you cannot, the chart may be trying to do too much.\n\nPick a table of data and create two different chart types from it, then decide which one communicates the point better and why.",
+            "videoId": "is5c02PSxpk"
+          },
+          {
+            "title": "Spotting misleading graphs",
+            "minutes": 6,
+            "body": "Charts can mislead without containing a single false number. Learning the common tricks makes you a far better reader, and a more honest creator.\n\n## The truncated axis\n\nBar charts encode value as length, so the baseline must be zero. If a bar chart starts at 90 instead of 0, a rise from 92 to 96 can look like a doubling. Line charts can use a non-zero start when it is clearly labelled, but be wary of axes that exaggerate small changes.\n\n## Stretching the scale\n\nSquashing a chart tall and thin makes a gentle slope look like a cliff, while stretching it wide flattens a dramatic change.\n\n## Cherry-picked time ranges\n\nA line showing only the last six months may show a sharp fall, while five years of data reveals a normal seasonal pattern. Always ask what happened before and after the window shown.\n\n## Uneven or missing intervals\n\nIf the horizontal axis jumps from yearly to monthly points, the slope is distorted. Check that the spacing is consistent.\n\n## Area and size tricks\n\nUsing icons that grow in both height and width makes a value that doubled look four times bigger, because area grows faster than length.\n\n## Missing context\n\nA raw count can mislead when groups differ in size. \"City A had more accidents than City B\" means little unless you know the populations. Rates, such as accidents per 100,000 people, make fair comparisons.\n\n## A quick checklist\n\n- Does the axis start at zero for bars?\n- Are units and scales clear?\n- Is the time period representative?\n- Are counts compared with rates?\n\n> Tip: when a chart makes you feel strongly, pause. Strong reactions are exactly when it is worth checking the axes.\n\nFind one chart in the news and write three sentences explaining how it could be redrawn more fairly."
+          },
+          {
+            "title": "Averages, spread and what they hide",
+            "minutes": 6,
+            "body": "A single number can summarise a whole dataset, but different summaries tell different stories. Choosing carefully is part of being honest with data.\n\n## Three kinds of average\n\n- The mean adds all values and divides by how many there are.\n- The median is the middle value once the data is sorted. With an even count, it is the mean of the middle two.\n- The mode is the most frequent value, which is useful for categories.\n\nTake the monthly salaries of five staff, in thousands: 28, 30, 31, 33, 128. The mean is 50, yet four of the five people earn about 30. The median is 31 and describes a typical person far better. When data is skewed by a few extreme values, the median is usually more representative. A headline average income may use either one, so look for which.\n\n## Spread\n\nThe average says nothing about how scattered the values are. Two classes can both average 60 percent, but one has everyone between 55 and 65 while the other ranges from 20 to 100.\n\n- The range is the largest value minus the smallest.\n- The interquartile range is the spread of the middle half of the data, so extreme values affect it much less.\n\n## Percentages and percentage points\n\nIf an interest rate rises from 2% to 3%, that is a rise of one percentage point but a 50% increase. News stories often blur these two, so check which is meant.\n\n## Show the whole picture\n\nReport the average together with the spread and the number of observations.\n\n> Tip: when you see \"average\" in a report, ask which type it is and compare the mean with the median if you can.\n\nCalculate the mean, median and range for a list of ten numbers you collect, and explain which best describes the typical value."
+          }
+        ]
+      },
+      {
+        "title": "Module 3: Judging Claims",
+        "lessons": [
+          {
+            "title": "Correlation, causation and sampling",
+            "minutes": 7,
+            "body": "Two common errors cause many bad conclusions: assuming that things that move together cause each other, and trusting results from a poorly chosen group.\n\n## Correlation is not causation\n\nTwo variables are correlated when they tend to change together. On a scatter plot, dots slope upward for a positive relationship and downward for a negative one. But correlation alone does not show that one causes the other. There are three usual alternatives:\n\n- A third factor drives both. Ice cream sales and sunburn both rise in summer because of hot weather, not because ice cream burns skin.\n- Reverse direction: the cause and effect are the other way round than assumed.\n- Coincidence: with enough variables, some will line up by chance.\n\nTo argue for causation you need stronger evidence, such as a controlled experiment where participants are randomly assigned to groups, which balances other factors out.\n\n## Sampling\n\nWe usually study a sample and hope it represents a wider population. A good sample is random, so everyone has a fair chance of being included, and large enough to limit chance variation. Be cautious about:\n\n- Self-selected samples, such as online polls where only the keen respond.\n- Convenience samples, such as surveying only your friends.\n- Tiny samples, where one unusual person changes the result.\n\nSurvey wording matters too. Leading questions push people towards an answer.\n\n## Questions to ask\n\n1. Who was measured, and how were they chosen?\n2. How many were there?\n3. What was compared with what?\n4. Could something else explain the pattern?\n\n> Tip: replace the word \"linked\" or \"associated\" in a headline with \"causes\", and ask whether the evidence supports it. Usually it does not.\n\nFind a news claim about health or education and write down the sample, the comparison and one alternative explanation."
+          },
+          {
+            "title": "Evaluating sources and telling a data story",
+            "minutes": 6,
+            "body": "Even accurate numbers can be misused, so judging where they come from is as important as reading them. Equally, when you present data yourself, you carry responsibility for clarity.\n\n## Judging a source\n\nAsk these questions about any statistic you meet:\n\n- Who produced it? National statistics offices, universities and established research organisations publish methods that others can check. A company marketing its own product has a motive to favour good results.\n- How was it measured? Look for a link to the method or the original dataset.\n- When was it collected? Old figures may no longer describe the world.\n- Is it primary or secondary? If an article quotes a study, try to find the study itself. Details often change when a figure is retold.\n- Can others reproduce it? Open data that anyone can download is easier to trust.\n\nIf you cannot trace a number back to its origin, treat it as an unverified claim.\n\n## Telling the story\n\nA strong data presentation follows a simple order:\n\n1. State the question you set out to answer.\n2. Show the key chart or number that answers it.\n3. Explain what it means in plain language.\n4. Admit limits, such as small samples or missing data.\n5. Suggest what could be done next.\n\nKeep one main message per chart, use a headline that states the finding, and cite the source underneath.\n\n## Honesty habits\n\n- Show the full axis and relevant context.\n- Report uncertainty instead of false precision.\n- Share your cleaning steps and assumptions.\n\n> Tip: before sharing a chart, show it to someone unfamiliar with the topic and ask them what they think it says. Their answer reveals whether it communicates clearly.\n\nChoose a free public dataset, such as one from Our World in Data, and draft a short summary with a chart, a headline and a source note."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "title": "Data Literacy Quiz",
+      "description": "Check your skills with tidy tables, formulas, chart choice, averages and evaluating claims.",
+      "minutes": 10,
+      "passMark": 60,
+      "questions": [
+        {
+          "prompt": "In a tidy table, what does each row represent?",
+          "options": [
+            "One variable",
+            "One observation, such as a single student or order",
+            "One chart",
+            "A summary of the whole dataset"
+          ],
+          "answerIndex": 1,
+          "explanation": "Each row is a single observation, while each column holds one variable."
+        },
+        {
+          "prompt": "Which formula counts how many cells in D2:D11 contain the word Yes?",
+          "options": [
+            "=SUM(D2:D11,\"Yes\")",
+            "=COUNT(D2:D11)",
+            "=COUNTIF(D2:D11,\"Yes\")",
+            "=AVERAGE(D2:D11)"
+          ],
+          "answerIndex": 2,
+          "explanation": "COUNTIF counts the cells that meet a stated condition."
+        },
+        {
+          "prompt": "Which chart type is best for comparing the sizes of several categories?",
+          "options": [
+            "A bar chart",
+            "A scatter plot",
+            "A line chart of a single point",
+            "A 3D pie chart"
+          ],
+          "answerIndex": 0,
+          "explanation": "Bars share a baseline, so differences in length are easy to compare."
+        },
+        {
+          "prompt": "Why can a bar chart whose axis starts at 90 be misleading?",
+          "options": [
+            "Bars should always be red",
+            "It removes the title",
+            "It exaggerates small differences because bar length no longer matches the true value",
+            "It makes the chart too wide"
+          ],
+          "answerIndex": 2,
+          "explanation": "Bar length encodes value, so a non-zero baseline makes small differences look huge."
+        },
+        {
+          "prompt": "Salaries are 28, 30, 31, 33 and 128 (thousands). Which measure best describes a typical salary?",
+          "options": [
+            "The mean of 50",
+            "The median of 31",
+            "The range of 100",
+            "The maximum of 128"
+          ],
+          "answerIndex": 1,
+          "explanation": "The extreme value pulls the mean up, so the median of 31 represents a typical person better."
+        },
+        {
+          "prompt": "Ice cream sales and sunburn cases rise together. What is the most sensible explanation?",
+          "options": [
+            "Ice cream causes sunburn",
+            "Sunburn causes ice cream sales",
+            "A third factor, hot weather, influences both",
+            "The data must have been invented"
+          ],
+          "answerIndex": 2,
+          "explanation": "Correlation can come from a shared cause, and here warm weather increases both."
+        }
+      ]
+    },
+    "assignment": {
+      "title": "Investigate a Public Dataset",
+      "brief": "Download a small free dataset from a source such as Our World in Data or a national statistics site, and open it in a spreadsheet. Clean it in a copy of the sheet and keep a short change log. Use at least four formulas, including one conditional function and one percentage calculation. Create two charts of different types, and write a 150-word summary stating your question, one finding, one limitation of the data, and the source with a date. Finally, point out one way a chart on the same topic could mislead. Submit the spreadsheet and your summary.",
+      "points": 50,
+      "dueInDays": 10
+    },
+    "materials": [
+      {
+        "title": "Khan Academy: Statistics and Probability",
+        "description": "Free lessons and practice on analysing categorical data, averages, spread and scatter plots.",
+        "kind": "link",
+        "url": "https://www.khanacademy.org/math/statistics-probability"
+      },
+      {
+        "title": "Our World in Data",
+        "description": "Free, well-sourced charts and downloadable datasets on global topics, ideal for practice and for learning how sources are cited.",
+        "kind": "link",
+        "url": "https://ourworldindata.org/"
+      }
+    ]
+  }
+]

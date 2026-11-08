@@ -1,0 +1,527 @@
+[
+  {
+    "code": "MATH 105",
+    "title": "Algebra Foundations",
+    "summary": "Build confidence with variables, equations, inequalities and straight-line graphs, using clear worked examples and short practice sets.",
+    "description": "Algebra is the language that maths and science are written in. This course takes you from using letters for unknown numbers to solving equations and inequalities and graphing straight lines. Every lesson uses worked examples with each step shown, so you can see exactly why an answer is right.",
+    "subject": "Mathematics",
+    "level": "Beginner",
+    "tutor": 3,
+    "outcomes": [
+      "You will be able to evaluate and simplify algebraic expressions using the order of operations.",
+      "You will be able to solve one-step, two-step and multi-step linear equations, including those with brackets.",
+      "You will be able to solve and describe linear inequalities, remembering when to reverse the sign.",
+      "You will be able to find the slope of a line, write its equation and turn a word problem into an equation."
+    ],
+    "tags": [
+      "algebra",
+      "equations",
+      "linear graphs",
+      "foundations",
+      "maths"
+    ],
+    "modules": [
+      {
+        "title": "Expressions and Variables",
+        "lessons": [
+          {
+            "title": "Variables and Expressions",
+            "minutes": 5,
+            "body": "An algebraic expression uses letters, called variables, to stand in for numbers we do not know yet or that can change. In `3x + 2`, the letter `x` is the variable, `3` is the coefficient (the number multiplying it) and `2` is a constant. Writing `3x` means 3 times x; the multiplication sign is left out on purpose.\n\n## Evaluating an expression\n\nTo evaluate, replace each variable with its value, then work out the arithmetic. Always put the substituted number in brackets so negative values behave.\n\nEvaluate `2x + 3y` when `x = 4` and `y = 2`:\n\n    2(4) + 3(2)\n    = 8 + 6\n    = 14\n\n## Translating words\n\nTurning English into algebra is half of the subject. Learn these patterns:\n\n- \"a number plus five\" becomes `n + 5`\n- \"twice a number\" becomes `2n`\n- \"three less than a number\" becomes `n - 3` (note the order)\n- \"a number divided by four\" becomes `n / 4`\n\n## Why letters help\n\nA formula such as `A = l × w` works for every rectangle, not just one. Once you have the pattern, you substitute the numbers you have and find the one you need. If a rectangle is 7 cm long and 3 cm wide, then `A = 7 × 3 = 21` square centimetres.\n\n## Common slips\n\n- Writing `3x` and reading it as \"thirty-something\". It is 3 multiplied by x.\n- Forgetting that `x` on its own means `1x`.\n- Dropping brackets when substituting a negative number: `x²` with `x = -3` is `(-3)² = 9`, not `-9`.\n\n> Tip: say the expression aloud in words before you calculate; it catches most mistakes."
+          },
+          {
+            "title": "Order of Operations and Simplifying",
+            "minutes": 6,
+            "body": "When an expression has several operations, everyone must agree on the order or the answers would differ. The agreed order is brackets first, then powers, then multiplication and division from left to right, then addition and subtraction from left to right. Many people remember it as BODMAS or PEMDAS.\n\n    3 + 4 × 2\n    = 3 + 8\n    = 11\n\nNotice the answer is not 14; multiplication comes before addition.\n\n## Like terms\n\nTerms are like terms when they have exactly the same variable part. You can add and subtract only like terms:\n\n    4a + 3b - a + 2b\n    = (4a - a) + (3b + 2b)\n    = 3a + 5b\n\nThe `a` terms combine and the `b` terms combine, but `3a` and `5b` cannot be merged into one term. Also, `x` and `x²` are different, so `x + x²` stays as it is.\n\n## The distributive law\n\nTo expand a bracket, multiply every term inside by the number outside:\n\n    3(x + 4)\n    = 3x + 12\n\n    2(5x - 3) + 4x\n    = 10x - 6 + 4x\n    = 14x - 6\n\n## Watch the signs\n\nA minus sign in front of a bracket flips every sign inside it:\n\n    7 - (x - 2)\n    = 7 - x + 2\n    = 9 - x\n\n- Multiply the sign with each term, not just the first one.\n- Check by substituting a simple number such as `x = 1` into the start and the end. Both should give the same value.\n\n> Tip: tick off each term as you collect it so that none is missed or counted twice."
+          }
+        ]
+      },
+      {
+        "title": "Solving Linear Equations",
+        "lessons": [
+          {
+            "title": "One-Step and Two-Step Equations",
+            "minutes": 6,
+            "body": "An equation says two things are equal, and solving it means finding the value of the variable that makes it true. The golden rule is that whatever you do to one side, you must do to the other. This keeps the balance, like a pair of scales.\n\n## One-step equations\n\nUndo the operation using its opposite.\n\n    x + 7 = 12\n    x = 12 - 7\n    x = 5\n\n    x / 4 = 3\n    x = 3 × 4\n    x = 12\n\n## Two-step equations\n\nThere are two operations stuck to the variable. Undo them in reverse order: deal with addition or subtraction first, then multiplication or division.\n\n    4x - 9 = 11\n    4x = 11 + 9\n    4x = 20\n    x = 20 / 4\n    x = 5\n\n## Always check\n\nSubstitute your answer back into the original equation:\n\n    4(5) - 9 = 20 - 9 = 11   (correct)\n\nIf both sides match, you are done. If not, go back and look for a sign error.\n\n## Equations with fractions\n\nMultiply both sides by the denominator to clear the fraction:\n\n    (x + 2) / 3 = 4\n    x + 2 = 12\n    x = 10\n\n- Never move a term \"across\" without changing the operation. Add or subtract it on both sides.\n- Write one step per line so you can trace errors.\n\n> Tip: the checking step takes ten seconds and is the most reliable way to protect your marks.",
+            "videoId": "bAerID24QJ0"
+          },
+          {
+            "title": "Variables on Both Sides and Brackets",
+            "minutes": 7,
+            "body": "Sometimes the variable appears on both sides of the equals sign. The plan is simple: gather all the variable terms on one side and all the plain numbers on the other, then finish as a two-step equation.\n\n## Worked example\n\n    7x - 4 = 3x + 20\n    7x - 3x - 4 = 20\n    4x - 4 = 20\n    4x = 24\n    x = 6\n\nHere we subtracted `3x` from both sides, then added 4 to both sides, then divided by 4. Check: the left side is `7(6) - 4 = 38`, and the right side is `3(6) + 20 = 38`.\n\n## Equations with brackets\n\nExpand the brackets first, then collect terms.\n\n    2(x + 3) = 14\n    2x + 6 = 14\n    2x = 8\n    x = 4\n\nYou can also divide both sides by 2 first, which gives `x + 3 = 7` and the same answer. Choose whichever leads to simpler numbers.\n\n## A harder one\n\n    3(2x - 1) = 4x + 9\n    6x - 3 = 4x + 9\n    2x = 12\n    x = 6\n\n## Special cases\n\n- If the variables cancel and you get a true statement such as `5 = 5`, every value works.\n- If you get a false statement such as `3 = 7`, there is no solution.\n\nTwo habits help. Move the smaller variable term so the coefficient stays positive, which reduces sign mistakes. And always expand brackets before moving terms.\n\n> Tip: after each line, ask yourself what you did to both sides. If you cannot say, redo the step."
+          },
+          {
+            "title": "Linear Inequalities",
+            "minutes": 5,
+            "body": "An inequality compares two quantities using `<` (less than), `>` (greater than), `≤` (less than or equal to) or `≥` (greater than or equal to). Instead of one answer, the solution is usually a whole range of values.\n\n## Solving them\n\nUse the same steps as for equations:\n\n    2x + 3 > 11\n    2x > 8\n    x > 4\n\nAny number bigger than 4 works. The number 4 itself does not, because the sign is strictly greater than.\n\n## The one big rule\n\nWhen you multiply or divide both sides by a negative number, you must reverse the inequality sign.\n\n    -3x > 12\n    x < -4\n\nWhy? Take 2 < 5. Multiply both sides by -1 and you get -2 and -5, but now -2 is greater than -5, so the sign has to flip.\n\n    -2x + 3 > 11\n    -2x > 8\n    x < -4\n\n## Number lines\n\nShow the solution on a number line. Use an open circle for `<` and `>` (the endpoint is excluded) and a filled circle for `≤` and `≥` (the endpoint is included). Then shade in the direction of the solutions.\n\n## Checking\n\nPick a number from your solution and one outside it, and test both in the original inequality. With `x < -4`, try -5 (should work) and 0 (should fail).\n\nTreat the sign like an equals sign until you multiply or divide by a negative, and read the final answer in words to check it makes sense.\n\n> Tip: if a negative coefficient bothers you, move the variable to the other side instead and avoid the flip entirely."
+          }
+        ]
+      },
+      {
+        "title": "Lines and Problem Solving",
+        "lessons": [
+          {
+            "title": "Slope and Graphing Straight Lines",
+            "minutes": 7,
+            "body": "A linear equation such as `y = 2x + 1` produces a straight line when you plot its points. Each value of `x` gives one value of `y`, and together these pairs, written `(x, y)`, sit on the line.\n\n## Slope\n\nThe slope, or gradient, measures steepness: how much `y` changes for each step in `x`.\n\n    slope = (change in y) / (change in x)\n          = (y2 - y1) / (x2 - x1)\n\nFind the slope between `(1, 2)` and `(3, 8)`:\n\n    (8 - 2) / (3 - 1)\n    = 6 / 2\n    = 3\n\nA positive slope rises left to right, a negative slope falls, a zero slope is horizontal.\n\n## Slope-intercept form\n\nThe form `y = mx + b` tells you everything at once. The number `m` is the slope and `b` is the y-intercept, where the line crosses the y-axis.\n\nFor `y = 3x - 1` the slope is 3 and the line crosses the y-axis at `(0, -1)`.\n\n## Graphing in three steps\n\n- Plot the y-intercept.\n- Use the slope as \"rise over run\": a slope of 3 means up 3, right 1.\n- Join the points with a ruler and extend the line.\n\n## Writing the equation\n\nThe line through `(1, 2)` and `(3, 8)` has slope 3, so `y = 3x + b`. Substitute one point:\n\n    2 = 3(1) + b\n    b = -1\n\nThe equation is `y = 3x - 1`.\n\n> Tip: always check the equation by testing the second point; here 3(3) - 1 = 8 does match."
+          },
+          {
+            "title": "Turning Word Problems into Equations",
+            "minutes": 6,
+            "body": "Word problems feel hard because the maths is hidden inside a story. A reliable method turns the story into an equation you already know how to solve.\n\n## The four-step method\n\n- Read the problem and name the unknown, for example \"let `k` be the distance in kilometres\".\n- Find the facts and write them using the variable.\n- Build an equation from the sentence that says two things are equal.\n- Solve it, then answer in words with units.\n\n## Example one\n\nA taxi charges a fixed fee of 3 pounds plus 2 pounds per kilometre. A journey costs 17 pounds. How far was it?\n\n    3 + 2k = 17\n    2k = 14\n    k = 7\n\nThe journey was 7 km. Check: 3 + 2(7) = 17.\n\n## Example two\n\nSam is 4 years older than twice Mia's age, and Sam is 20. Find Mia's age.\n\n    2m + 4 = 20\n    2m = 16\n    m = 8\n\nMia is 8.\n\n## Example three\n\nTwo numbers add to 30 and one is 6 more than the other. Call the smaller `n`, so the larger is `n + 6`:\n\n    n + (n + 6) = 30\n    2n + 6 = 30\n    2n = 24\n    n = 12\n\nThe numbers are 12 and 18.\n\nUnderline the unknown in the question so you answer what was asked, and ask whether the answer makes sense. A negative age or distance signals an error.\n\n> Tip: write \"Let ... be ...\" at the start every time. It costs five seconds and organises your thinking."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "title": "Algebra Foundations Check",
+      "description": "Six questions on expressions, equations, inequalities and slope. You need 60 percent to pass.",
+      "minutes": 10,
+      "passMark": 60,
+      "questions": [
+        {
+          "prompt": "What is the value of 2x + 3y when x = 4 and y = 2?",
+          "options": [
+            "10",
+            "14",
+            "20",
+            "24"
+          ],
+          "answerIndex": 1,
+          "explanation": "Substituting gives 2(4) + 3(2) = 8 + 6 = 14."
+        },
+        {
+          "prompt": "Simplify 4a + 3b - a + 2b.",
+          "options": [
+            "3a + 5b",
+            "5a + 5b",
+            "3a + b",
+            "8ab"
+          ],
+          "answerIndex": 0,
+          "explanation": "Combine like terms: 4a - a = 3a and 3b + 2b = 5b."
+        },
+        {
+          "prompt": "Solve 4x - 9 = 11.",
+          "options": [
+            "x = 0.5",
+            "x = 2",
+            "x = 5",
+            "x = 8"
+          ],
+          "answerIndex": 2,
+          "explanation": "Add 9 to get 4x = 20, then divide by 4 to get x = 5."
+        },
+        {
+          "prompt": "Solve 7x - 4 = 3x + 20.",
+          "options": [
+            "x = 4",
+            "x = 5",
+            "x = 6",
+            "x = 8"
+          ],
+          "answerIndex": 2,
+          "explanation": "Subtract 3x to get 4x - 4 = 20, so 4x = 24 and x = 6."
+        },
+        {
+          "prompt": "Which is the solution of -3x > 12?",
+          "options": [
+            "x > -4",
+            "x < -4",
+            "x > 4",
+            "x < 4"
+          ],
+          "answerIndex": 1,
+          "explanation": "Dividing by -3 reverses the sign, giving x < -4."
+        },
+        {
+          "prompt": "What is the slope of the line through (0, 1) and (4, 9)?",
+          "options": [
+            "1/2",
+            "2",
+            "4",
+            "8"
+          ],
+          "answerIndex": 1,
+          "explanation": "Slope is (9 - 1) / (4 - 0) = 8/4 = 2."
+        }
+      ]
+    },
+    "assignment": {
+      "title": "Solve, Check and Explain",
+      "brief": "Solve these five equations, writing one step per line: 5x + 3 = 28, 3(x - 2) = 15, 9x - 7 = 4x + 18, -2x + 5 < 13 and (x + 4) / 3 = 6. For each, substitute your answer back to check it. Then write a word problem of your own that leads to a linear equation, solve it, and explain in two or three sentences how you chose the variable and why your answer makes sense. Submit your working as typed text or a link to a photo of your handwritten pages.",
+      "points": 50,
+      "dueInDays": 10
+    },
+    "materials": [
+      {
+        "title": "Khan Academy: Algebra",
+        "description": "Free video lessons and practice exercises covering equations, inequalities and linear functions.",
+        "kind": "link",
+        "url": "https://www.khanacademy.org/math/algebra"
+      },
+      {
+        "title": "OpenStax: Elementary Algebra 2e",
+        "description": "A free, peer-reviewed textbook with worked examples and exercise sets.",
+        "kind": "link",
+        "url": "https://openstax.org/details/books/elementary-algebra-2e"
+      },
+      {
+        "title": "Khan Academy: Algebra basics",
+        "description": "A gentle starting point for variables, expressions and one-step equations.",
+        "kind": "link",
+        "url": "https://www.khanacademy.org/math/algebra-basics"
+      }
+    ]
+  },
+  {
+    "code": "SCI 130",
+    "title": "Physics: Motion, Force and Energy",
+    "summary": "Learn to describe motion with equations, apply Newton's laws to forces, and track energy through work, kinetic and potential energy.",
+    "description": "This course covers the three ideas at the heart of introductory physics: how things move, why they move that way, and how energy is transferred along the way. Each lesson pairs a clear explanation with fully worked numerical examples. You will practise choosing the right equation, keeping units straight and checking that answers are sensible.",
+    "subject": "Science",
+    "level": "Intermediate",
+    "tutor": 4,
+    "outcomes": [
+      "You will be able to calculate speed, velocity and acceleration and use the constant-acceleration equations.",
+      "You will be able to apply Newton's three laws and find the net force and acceleration of an object.",
+      "You will be able to calculate work, power, kinetic energy and gravitational potential energy.",
+      "You will be able to use conservation of energy to find speeds and heights without tracking forces."
+    ],
+    "tags": [
+      "physics",
+      "motion",
+      "forces",
+      "energy",
+      "mechanics"
+    ],
+    "modules": [
+      {
+        "title": "Describing Motion",
+        "lessons": [
+          {
+            "title": "Speed, Velocity and Acceleration",
+            "minutes": 6,
+            "body": "Physics starts by describing motion precisely. Three quantities do most of the work.\n\n## Speed and velocity\n\nSpeed is how fast something moves, regardless of direction:\n\n    speed = distance / time\n\nA cyclist who covers 150 m in 30 s has a speed of `150 / 30 = 5 m/s`.\n\nVelocity is speed in a stated direction, so it is a vector. A car travelling at 20 m/s east and a car travelling at 20 m/s west have the same speed but opposite velocities. Displacement, the straight-line change in position, is likewise a vector, while distance is not.\n\n## Acceleration\n\nAcceleration is the rate at which velocity changes:\n\n    a = (v - u) / t\n\nHere `u` is the starting velocity, `v` is the final velocity and `t` is the time. The unit is metres per second squared, `m/s²`.\n\nA train speeds up from 10 m/s to 30 m/s in 4 s:\n\n    a = (30 - 10) / 4\n    a = 20 / 4\n    a = 5 m/s²\n\nEvery second, its velocity rises by 5 m/s. A negative acceleration (slowing down) is called deceleration.\n\n## Reading graphs\n\n- On a distance-time graph, the gradient is the speed.\n- On a velocity-time graph, the gradient is the acceleration and the area under the line is the distance travelled.\n\n## Unit care\n\nConvert before you calculate. To change km/h to m/s, divide by 3.6, so 72 km/h is `72 / 3.6 = 20 m/s`.\n\n> Tip: write every quantity with its unit; a mismatch of units is the most common cause of a wrong answer."
+          },
+          {
+            "title": "Equations of Constant Acceleration",
+            "minutes": 7,
+            "body": "When acceleration is constant, three equations connect the five quantities `u` (initial velocity), `v` (final velocity), `a` (acceleration), `t` (time) and `s` (displacement):\n\n    v = u + at\n    s = ut + ½at²\n    v² = u² + 2as\n\nEach equation leaves one quantity out, so pick the one that omits the quantity you neither know nor need.\n\n## Worked example\n\nA car starts from rest and accelerates at 3 m/s² for 6 s. Find its final speed and the distance covered.\n\nStarting from rest means `u = 0`.\n\n    v = u + at\n    v = 0 + 3 × 6\n    v = 18 m/s\n\n    s = ut + ½at²\n    s = 0 + ½ × 3 × 6²\n    s = ½ × 3 × 36\n    s = 54 m\n\n## Free fall\n\nNear the Earth's surface, anything falling freely (ignoring air resistance) accelerates downwards at `g ≈ 9.8 m/s²`. A stone is dropped and falls for 2 s:\n\n    v = 0 + 9.8 × 2 = 19.6 m/s\n    s = ½ × 9.8 × 2² = 19.6 m\n\n## Solving method\n\n- List what you know and what you want, using the letters.\n- Choose the equation that contains exactly those letters.\n- Rearrange, substitute with units and calculate.\n- Ask whether the result is realistic.\n\n## Sign conventions\n\nChoose a positive direction and stick to it. If upward is positive, then `g` becomes `-9.8` for a ball thrown upwards.\n\n> Tip: \"from rest\" means `u = 0` and \"comes to a stop\" means `v = 0`. Spotting these hidden values saves many problems."
+          }
+        ]
+      },
+      {
+        "title": "Forces and Newton's Laws",
+        "lessons": [
+          {
+            "title": "Newton's Three Laws of Motion",
+            "minutes": 7,
+            "body": "A force is a push or a pull, measured in newtons (N). Forces explain why velocities change.\n\n## First law: inertia\n\nAn object keeps its state of rest or constant velocity unless a resultant (net) force acts on it. That is why passengers lurch forward when a car brakes: their bodies tend to keep moving. Mass is the measure of an object's inertia.\n\n## Second law: F = ma\n\nThe net force on an object equals its mass times its acceleration:\n\n    F = ma\n\nA 10 kg trolley is pushed with a net force of 30 N:\n\n    a = F / m\n    a = 30 / 10\n    a = 3 m/s²\n\nThe same force on a 20 kg trolley would give only 1.5 m/s². Bigger mass means smaller acceleration. One newton is the force that gives a 1 kg mass an acceleration of 1 m/s².\n\n## Third law: action and reaction\n\nWhen object A pushes on object B, B pushes back on A with an equal force in the opposite direction. The two forces act on different objects, so they never cancel each other out.\n\n- A swimmer pushes the water backwards, and the water pushes the swimmer forwards.\n- A book on a table is pulled down by gravity, and the table pushes up on the book with a normal force. In equilibrium those two are balanced, giving zero net force.\n\n## Common misconception\n\nConstant motion does not need a constant force. A spacecraft coasting in deep space keeps moving with no engine at all. Forces change motion; they are not needed to maintain it.\n\n> Tip: before using `F = ma`, draw the object alone and mark every force on it. Then add them with directions to find the net force.",
+            "videoId": "kKKM8Y-u7ds"
+          },
+          {
+            "title": "Weight, Friction and Net Force",
+            "minutes": 7,
+            "body": "Real problems have several forces acting at once. The skill is to combine them correctly.\n\n## Mass and weight\n\nMass is the amount of matter in an object, in kilograms. Weight is the gravitational force on it, in newtons:\n\n    W = mg\n\nFor a 5 kg bag with `g = 9.8 N/kg`, the weight is `5 × 9.8 = 49 N`. On the Moon, where `g` is about 1.6 N/kg, the bag keeps its mass of 5 kg but weighs only about 8 N.\n\n## Friction\n\nFriction is a force that opposes sliding between surfaces. It acts opposite to the direction of motion (or the direction the object would move). It depends on how rough the surfaces are and how hard they press together. Air resistance and drag are similar forces in fluids.\n\n## Finding the net force\n\nAdd forces along a line, giving opposite directions opposite signs. A 10 kg box is pushed forwards with 50 N and friction pulls back with 20 N:\n\n    net force = 50 - 20 = 30 N\n    a = F / m\n    a = 30 / 10\n    a = 3 m/s²\n\nIf the push were only 20 N, the net force would be zero and the box would slide at constant velocity or stay still.\n\n## Terminal velocity\n\nA skydiver speeds up until air resistance equals weight. Then the net force is zero, acceleration stops and the speed stays constant. This steady speed is the terminal velocity.\n\n- Balanced forces mean no acceleration, not necessarily no movement.\n- Forces at right angles can be handled separately in each direction.\n\n> Tip: the words \"constant speed\" in a question usually mean the forces are balanced, which gives you an extra equation for free."
+          }
+        ]
+      },
+      {
+        "title": "Work, Energy and Power",
+        "lessons": [
+          {
+            "title": "Work and Power",
+            "minutes": 6,
+            "body": "In physics, work has a precise meaning: it is the energy transferred when a force moves an object. Pushing a wall that does not move transfers no energy, so no work is done on it.\n\n## The work formula\n\nWhen the force acts in the direction of motion:\n\n    W = F × d\n\nWork is in joules (J) when force is in newtons and distance in metres. One joule is one newton acting over one metre.\n\nA person pushes a crate with 40 N over 5 m:\n\n    W = 40 × 5\n    W = 200 J\n\n## Power\n\nPower is the rate of doing work, or how quickly energy is transferred:\n\n    P = W / t\n\nThe unit is the watt (W), which is one joule per second. If the crate above is pushed in 10 s:\n\n    P = 200 / 10\n    P = 20 W\n\nA 100 W lamp transfers 100 J of electrical energy every second.\n\n## Lifting\n\nLifting a 3 kg book through 2 m needs a force equal to its weight, `3 × 9.8 = 29.4 N`, so the work done is:\n\n    W = 29.4 × 2\n    W = 58.8 J\n\n## Efficiency\n\nNo machine transfers all its input usefully. Efficiency compares the useful output with the total input:\n\n    efficiency = useful energy out / total energy in\n\nA motor that takes in 500 J and lifts a load with 400 J of useful energy is 80 percent efficient. The rest is wasted, often as heat.\n\n> Tip: if the force is not in the direction of travel, only the component along the movement does work, so a force at right angles does none."
+          },
+          {
+            "title": "Kinetic and Potential Energy",
+            "minutes": 6,
+            "body": "Energy is stored or moving in several forms, and two are central to mechanics.\n\n## Kinetic energy\n\nKinetic energy is the energy of motion:\n\n    KE = ½mv²\n\nA 2 kg trolley moving at 3 m/s has:\n\n    KE = ½ × 2 × 3²\n    KE = ½ × 2 × 9\n    KE = 9 J\n\nBecause speed is squared, doubling the speed quadruples the kinetic energy. That is why stopping distances grow so quickly with speed.\n\n## Gravitational potential energy\n\nRaising an object stores energy in the gravitational field:\n\n    GPE = mgh\n\nHere `h` is the height above your chosen zero level. A 2 kg object lifted 5 m gains:\n\n    GPE = 2 × 9.8 × 5\n    GPE = 98 J\n\n## The work-energy link\n\nThe work done by a net force changes the kinetic energy by exactly that amount. If a 40 N net force acts on a 2 kg trolley over 5 m starting from rest, then 200 J of work is done, so:\n\n    ½ × 2 × v² = 200\n    v² = 200\n    v ≈ 14.1 m/s\n\n## Other forms\n\n- Elastic potential energy in stretched springs\n- Chemical energy in food and fuel\n- Thermal energy in hot objects\n\nWhatever form it takes, energy is measured in joules.\n\n> Tip: choose the zero level for height at the lowest point in the problem; it keeps every GPE value positive and easy to read."
+          },
+          {
+            "title": "Conservation of Energy",
+            "minutes": 7,
+            "body": "The law of conservation of energy says energy is never created or destroyed. It is only transferred between stores or changed from one form to another. The total stays the same.\n\n## Falling and rising\n\nFor an object moving under gravity with negligible air resistance, potential energy converts to kinetic energy as it falls:\n\n    GPE lost = KE gained\n    mgh = ½mv²\n\nThe mass cancels, so:\n\n    v² = 2gh\n\n## Worked example\n\nA 1 kg ball is dropped from 5 m. How fast is it moving just before it lands?\n\n    v² = 2 × 9.8 × 5\n    v² = 98\n    v ≈ 9.9 m/s\n\nCheck with the motion equations: `v² = u² + 2as` gives the same result, which shows both approaches agree.\n\n## A roller coaster\n\nA cart at the top of a frictionless hill of height 20 m has speed zero. At the bottom its speed is:\n\n    v² = 2 × 9.8 × 20 = 392\n    v ≈ 19.8 m/s\n\nThe shape of the track does not matter, only the height difference.\n\n## Real situations\n\nFriction and air resistance turn some mechanical energy into thermal energy, so the speed ends up lower than the ideal value. The total energy is still conserved; it has just spread into the surroundings.\n\n- Write the energy at the start and the end, then set them equal.\n- Include a term for wasted energy if friction is mentioned.\n\n> Tip: when a question gives heights and speeds but no times or forces, energy conservation is nearly always the shortest route."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "title": "Motion, Force and Energy Quiz",
+      "description": "Six calculation and concept questions covering the whole course. You need 60 percent to pass.",
+      "minutes": 10,
+      "passMark": 60,
+      "questions": [
+        {
+          "prompt": "A train speeds up from 10 m/s to 30 m/s in 4 s. What is its acceleration?",
+          "options": [
+            "2 m/s²",
+            "5 m/s²",
+            "7.5 m/s²",
+            "10 m/s²"
+          ],
+          "answerIndex": 1,
+          "explanation": "a = (30 - 10) / 4 = 5 m/s²."
+        },
+        {
+          "prompt": "A net force of 60 N acts on a 12 kg object. What is its acceleration?",
+          "options": [
+            "0.2 m/s²",
+            "5 m/s²",
+            "48 m/s²",
+            "720 m/s²"
+          ],
+          "answerIndex": 1,
+          "explanation": "a = F / m = 60 / 12 = 5 m/s²."
+        },
+        {
+          "prompt": "What is the weight of a 3 kg object when g = 9.8 N/kg?",
+          "options": [
+            "3 N",
+            "9.8 N",
+            "29.4 N",
+            "32.7 N"
+          ],
+          "answerIndex": 2,
+          "explanation": "W = mg = 3 × 9.8 = 29.4 N."
+        },
+        {
+          "prompt": "How much work is done when a 25 N force moves an object 8 m in the direction of the force?",
+          "options": [
+            "3.1 J",
+            "17 J",
+            "33 J",
+            "200 J"
+          ],
+          "answerIndex": 3,
+          "explanation": "W = F × d = 25 × 8 = 200 J."
+        },
+        {
+          "prompt": "What is the kinetic energy of a 4 kg object moving at 5 m/s?",
+          "options": [
+            "10 J",
+            "50 J",
+            "100 J",
+            "200 J"
+          ],
+          "answerIndex": 1,
+          "explanation": "KE = ½mv² = ½ × 4 × 25 = 50 J."
+        },
+        {
+          "prompt": "A ball falls freely and air resistance is negligible. Which statement describes the energy changes?",
+          "options": [
+            "Kinetic energy is destroyed as it falls.",
+            "Gravitational potential energy changes into kinetic energy.",
+            "Kinetic energy changes into potential energy.",
+            "The total energy increases."
+          ],
+          "answerIndex": 1,
+          "explanation": "As the ball falls, it loses potential energy and gains an equal amount of kinetic energy, so the total stays constant."
+        }
+      ]
+    },
+    "assignment": {
+      "title": "Energy of a Falling Object",
+      "brief": "Choose a real object, such as a tennis ball, a book or a backpack, and drop it from a measured height of at least one metre. Record its mass (use kitchen scales or the label) and height. Calculate its gravitational potential energy before release, its predicted speed just before impact using v² = 2gh, and its kinetic energy at that moment. Then write 150 words explaining why the real speed would be slightly lower and which forces cause the difference. Show every calculation step with units.",
+      "points": 60,
+      "dueInDays": 14
+    },
+    "materials": [
+      {
+        "title": "PhET: Forces and Motion Basics",
+        "description": "An interactive simulation for exploring net force, friction and acceleration.",
+        "kind": "link",
+        "url": "https://phet.colorado.edu/en/simulations/forces-and-motion-basics"
+      },
+      {
+        "title": "PhET: Energy Skate Park Basics",
+        "description": "Watch kinetic and potential energy change as a skater moves on adjustable tracks.",
+        "kind": "link",
+        "url": "https://phet.colorado.edu/en/simulations/energy-skate-park-basics"
+      },
+      {
+        "title": "OpenStax: College Physics 2e",
+        "description": "A free textbook with explanations, worked examples and end-of-chapter problems.",
+        "kind": "link",
+        "url": "https://openstax.org/details/books/college-physics-2e"
+      }
+    ]
+  },
+  {
+    "code": "STUDY 100",
+    "title": "Study Skills and Exam Technique",
+    "summary": "Learn evidence-based study methods, plan your time realistically, take better notes and approach exams with a calm, practised routine.",
+    "description": "Most students study hard but not smartly. This course introduces methods that cognitive research supports, such as active recall and spaced practice, and shows you how to plan, take notes and revise with them. It finishes with practical exam technique and ways of managing stress so you can show what you know.",
+    "subject": "Study skills",
+    "level": "Beginner",
+    "tutor": 0,
+    "outcomes": [
+      "You will be able to explain why forgetting happens and how spaced practice reduces it.",
+      "You will be able to build a weekly study plan with realistic blocks, breaks and priorities.",
+      "You will be able to take structured notes and turn them into questions for revision.",
+      "You will be able to manage time in an exam, read questions carefully and keep stress under control."
+    ],
+    "tags": [
+      "study skills",
+      "revision",
+      "exams",
+      "time management",
+      "note-taking"
+    ],
+    "modules": [
+      {
+        "title": "How Learning Works",
+        "lessons": [
+          {
+            "title": "Memory and the Forgetting Curve",
+            "minutes": 5,
+            "body": "Many students believe that if they read something carefully it will stay in their heads. Unfortunately memory does not work that way, and understanding why is the first step to studying better.\n\n## The forgetting curve\n\nIn the 1880s the psychologist Hermann Ebbinghaus tested his own memory for meaningless syllables. He found that forgetting is fastest soon after learning and then slows down. Within a day or two, a large share of new material is gone unless you do something about it. The exact numbers vary with the person and the material, but the shape of the curve is reliable.\n\n## Three stages of memory\n\n- Encoding: taking information in. Paying attention here matters, because distracted study encodes weakly.\n- Storage: holding it over time. Sleep helps consolidate what you learned that day.\n- Retrieval: bringing it back when needed. Every successful retrieval strengthens the memory.\n\n## Understanding beats copying\n\nIdeas you can connect to things you already know are remembered far better than isolated facts. When you study, ask \"why does this work?\" and \"how does it link to what I already know?\"\n\n## Why re-reading fails\n\nRe-reading feels easy and familiar, and familiarity is easily mistaken for knowing. You recognise the page, but you cannot yet produce the answer without it. Exams ask you to produce, not recognise.\n\n## What to do instead\n\n- Test yourself rather than only looking again at notes.\n- Spread your study over several days.\n- Mix topics in a session rather than doing one thing for hours.\n\n> Tip: if studying feels very smooth and comfortable, you are probably not learning much. A little struggle is a good sign."
+          },
+          {
+            "title": "Active Recall and Spaced Practice",
+            "minutes": 6,
+            "body": "Two methods have especially strong research support: active recall and spaced practice. Together they form the backbone of effective revision.\n\n## Active recall\n\nActive recall means pulling information out of your memory instead of putting it in again. Close the book and try to answer from memory. Methods include:\n\n- Flashcards with a question on one side and the answer on the other\n- Writing down everything you remember about a topic, then checking against your notes\n- Answering past exam questions without looking at the answers\n- Explaining an idea aloud to a friend, or to an imaginary one\n\nWhen you fail to recall something, that is useful information. You now know exactly what to study next. Check the answer, then test yourself again later.\n\n## Spaced practice\n\nSpaced practice means revisiting material at increasing gaps rather than cramming it into one long session. A simple schedule after first learning something is to review it after one day, then after three days, then after a week, then after two or three weeks.\n\nEach review should happen just as you begin to forget. The effort of remembering is what strengthens the memory.\n\n## Putting them together\n\nMake five or ten flashcards at the end of each lesson. Test yourself the next day. Cards you get right move to a longer interval and cards you miss come back sooner. Paper boxes or a free app such as Anki can run this for you.\n\n## Interleaving\n\nMix different problem types in a session, for example algebra, geometry and graphs together. It feels harder but improves your ability to choose the right method.\n\n> Tip: five minutes of recall at the start of each study session, covering last week's material, keeps old topics alive.",
+            "videoId": "TjPFZaMe2yw"
+          }
+        ]
+      },
+      {
+        "title": "Planning and Note-Taking",
+        "lessons": [
+          {
+            "title": "Planning Your Study Time",
+            "minutes": 6,
+            "body": "A good plan turns a vague wish to study into specific blocks you can actually start. It also protects time for rest, which is not wasted time.\n\n## Start with fixed commitments\n\nWrite your timetable, work, travel, meals, sleep and family commitments into a weekly grid first. What is left are your real study windows. Most people have fewer free hours than they imagine, so being honest here prevents unrealistic plans.\n\n## Prioritise\n\nNot all tasks are equal. Rank them by deadline and by importance. A simple approach is to ask two questions: how soon is it due, and how much is it worth? Do the urgent and valuable work first, and schedule the important but not urgent work before it becomes urgent.\n\n## Work in blocks\n\nConcentration fades after a period of effort. The Pomodoro method uses 25 minutes of focused work followed by a 5 minute break, with a longer break after four rounds. You do not need that exact timing; 40 to 50 minutes with a 10 minute break suits some people better.\n\n## Make tasks specific\n\nCompare these two entries:\n\n- \"Study chemistry\"\n- \"Do 10 questions on moles and check answers\"\n\nThe second can be started and finished, and you will know when it is done.\n\n## Remove friction\n\n- Put your phone in another room or switch on a focus mode.\n- Prepare materials the night before.\n- Choose the same place for study when you can.\n\n## Review weekly\n\nEach Sunday, look at what you completed and what slipped, and adjust. Plans are drafts. Leave a buffer of about 20 percent of your time for the unexpected.\n\n> Tip: begin with the hardest subject while your energy is highest, and finish with something lighter."
+          },
+          {
+            "title": "Taking Notes You Can Use",
+            "minutes": 6,
+            "body": "Notes are useful only if you can revise from them later. The goal is to capture ideas in your own words, not to copy everything a teacher says.\n\n## Before, during and after\n\n- Before class, skim the topic heading and any reading so that you know what to expect.\n- During class, write key ideas, definitions, examples and questions. Use abbreviations and leave gaps if you miss something.\n- After class, within 24 hours, tidy and fill gaps while the lesson is still fresh.\n\n## The Cornell method\n\nDivide the page into three areas: a narrow cue column on the left, a wide note-taking area on the right, and a summary strip at the bottom.\n\n- Take notes in the right-hand area during the lesson.\n- Afterwards, write questions or keywords in the cue column, such as \"What causes inflation?\"\n- Write a two or three sentence summary at the bottom.\n\nLater, cover the right side and use the cues to test yourself. This builds active recall into your notes.\n\n## Other formats\n\n- Outlines work well for structured subjects with headings and sub-points.\n- Mind maps suit topics with many connections, such as history themes.\n- Worked examples, written step by step, are best for maths and science.\n\n## Good habits\n\n- Write less, but make it meaningful. Paraphrase rather than transcribe.\n- Date every page and label the topic.\n- Mark anything you do not understand with a question mark and follow it up.\n- Add diagrams where a picture explains more than words.\n\n> Tip: handwritten notes force you to summarise because you cannot keep up with speech. If you type, make an effort not to transcribe word for word."
+          }
+        ]
+      },
+      {
+        "title": "Exam Technique and Wellbeing",
+        "lessons": [
+          {
+            "title": "Revision Strategies for the Weeks Before",
+            "minutes": 6,
+            "body": "Good exam results are usually built over weeks, not the night before. A structured revision period lets you cover everything and still have time to practise.\n\n## Map the syllabus\n\nList every topic on the specification and rate each one red, amber or green for your confidence. Start with the red topics, but do not ignore green ones; they need occasional recall to stay green.\n\n## Work backwards from exam dates\n\nCount the weeks remaining and assign topics to days, leaving the final week for past papers and gaps. Aim to cover everything once, then repeat it, so each topic is revisited at least two or three times.\n\n## Practise like the exam\n\nPast papers are the most valuable resource you have. Do some under timed conditions, then mark them with the mark scheme. Note the type of mistake you made:\n\n- Knowledge gap: you did not know it\n- Skill gap: you knew it but applied it wrongly\n- Careless slip: a misread question or an arithmetic error\n\nEach type needs a different fix. Knowledge gaps need recall practice, skill gaps need worked examples, and careless slips need checking habits.\n\n## Make revision materials small\n\nCondense notes to one-page summaries, formula lists and flashcards. The act of condensing is itself revision.\n\n## Look after the basics\n\n- Sleep seven to nine hours; memory consolidates during sleep.\n- Eat regularly and drink water.\n- Take a short walk or exercise; it helps concentration.\n\n## Avoid the all-nighter\n\nPulling an all-nighter hurts recall and reasoning on exam day. A last evening of light review and an early night is a far better plan.\n\n> Tip: keep an error log, a short list of mistakes you have made, and reread it the day before each exam."
+          },
+          {
+            "title": "In the Exam Room",
+            "minutes": 7,
+            "body": "Knowing the content is only half of an exam. The other half is using your time and reading the questions properly.\n\n## Before you write\n\n- Read the instructions and note how many questions you must answer and how marks are shared.\n- Spend two minutes scanning the whole paper.\n- Plan your time. A useful rule is about one minute per mark. A paper of 60 marks in 60 minutes leaves little spare time, so a 6 mark question gets roughly 6 minutes.\n\n## Read the command word\n\nThe first word of a question tells you what to do:\n\n- State or name: give a short answer with no explanation.\n- Describe: say what happens or what something is like.\n- Explain: give reasons, using because.\n- Compare: write about similarities and differences.\n- Evaluate: weigh strengths and weaknesses, then reach a judgement.\n\nUnderline the command word and the key terms before you start.\n\n## Answering well\n\n- Show every step in calculations; method marks are often awarded even if the final answer is wrong.\n- Include units.\n- If you are stuck, move on. Mark the question and return to it; an unfinished easy question costs more than a hard one you skip.\n- Use any spare minutes to check, especially numbers, signs and that you answered the question asked.\n\n## Multiple choice\n\nCover the options and think of your own answer first, then find the best match. Eliminate obviously wrong choices. Do not leave blanks if there is no penalty for guessing.\n\n> Tip: if your mind goes blank, write down what you do know about the topic, such as formulas and definitions. It often unlocks the rest."
+          },
+          {
+            "title": "Managing Stress and Anxiety",
+            "minutes": 5,
+            "body": "A little nervousness before an exam is normal and can sharpen your focus. Too much, however, makes it hard to think. The following habits keep stress at a useful level.\n\n## Understand what is happening\n\nStress triggers your body's alert response: a faster heartbeat, shallow breathing and tense muscles. These feelings are uncomfortable but not dangerous. Telling yourself \"this is my body getting ready\" is more helpful than \"I am panicking\".\n\n## Calm your body\n\nSlow breathing is quick and effective. Try breathing in through your nose for four counts, then out slowly through your mouth for six counts, and repeat for about a minute. A longer out-breath helps the body settle.\n\n## Calm your thinking\n\n- Notice catastrophic thoughts such as \"I will fail everything\" and replace them with factual ones: \"I have prepared, and I can answer many of these questions.\"\n- Break overwhelming tasks into small steps.\n- Focus on the next question, not on the result.\n\n## Build routines\n\n- Keep regular sleep times.\n- Do something physical most days.\n- Plan breaks and time with friends, as isolation makes worry grow.\n- Limit caffeine, especially in the afternoon and evening.\n\n## On the day\n\nPack your bag the night before, arrive early and avoid chatting about what you did not revise. After each exam, avoid long post-mortems; you cannot change the paper, so turn your attention to the next one.\n\n## Asking for help\n\nIf anxiety stops you sleeping, eating or studying for more than a couple of weeks, talk to a tutor, a counsellor or a doctor. Asking for support is a sign of good judgement. Many schools can also arrange adjustments for students who need them.\n\n> Tip: write down three things that went well in your study each day. It shifts attention from what is missing to what you have achieved."
+          }
+        ]
+      }
+    ],
+    "quiz": {
+      "title": "Study Skills Check",
+      "description": "Six questions on memory, planning, notes and exam technique. You need 60 percent to pass.",
+      "minutes": 10,
+      "passMark": 60,
+      "questions": [
+        {
+          "prompt": "According to the forgetting curve, when is forgetting fastest?",
+          "options": [
+            "Soon after learning",
+            "After about a month",
+            "Only during exams",
+            "It happens at a steady rate"
+          ],
+          "answerIndex": 0,
+          "explanation": "Forgetting is steepest soon after learning and then slows down."
+        },
+        {
+          "prompt": "Which of these is an example of active recall?",
+          "options": [
+            "Highlighting a textbook page",
+            "Re-reading your notes twice",
+            "Closing your notes and writing what you remember",
+            "Watching a lecture at double speed"
+          ],
+          "answerIndex": 2,
+          "explanation": "Active recall means retrieving information from memory rather than looking at it again."
+        },
+        {
+          "prompt": "Which review schedule best matches spaced practice?",
+          "options": [
+            "Five hours on one day only",
+            "After one day, three days, one week, then later",
+            "Every ten minutes for an hour",
+            "Only the night before the exam"
+          ],
+          "answerIndex": 1,
+          "explanation": "Spaced practice revisits material at increasing gaps."
+        },
+        {
+          "prompt": "In the Cornell method, what goes in the narrow left-hand column?",
+          "options": [
+            "Cues such as keywords and questions",
+            "A copy of the teacher's slides",
+            "The date and the page number only",
+            "Your exam timetable"
+          ],
+          "answerIndex": 0,
+          "explanation": "The cue column holds questions or keywords written after class, which you use to test yourself."
+        },
+        {
+          "prompt": "A paper has 60 marks and lasts 60 minutes. About how long should you spend on a 6 mark question?",
+          "options": [
+            "1 minute",
+            "3 minutes",
+            "6 minutes",
+            "12 minutes"
+          ],
+          "answerIndex": 2,
+          "explanation": "At about one minute per mark, a 6 mark question gets roughly 6 minutes."
+        },
+        {
+          "prompt": "What does the command word 'evaluate' ask you to do?",
+          "options": [
+            "Give a one-word answer",
+            "Weigh strengths and weaknesses and reach a judgement",
+            "Copy a definition from the notes",
+            "List the steps of a calculation"
+          ],
+          "answerIndex": 1,
+          "explanation": "Evaluate means weighing up strengths and weaknesses and then reaching a judgement."
+        }
+      ]
+    },
+    "assignment": {
+      "title": "Build Your Own Study Plan",
+      "brief": "Create a one-week study plan for a real subject you are studying. Start by listing your fixed commitments, then schedule at least five study blocks of 25 to 50 minutes, each with a specific task such as 'ten practice questions on topic X'. Include two spaced review sessions, one active recall activity and planned breaks. After following the plan for at least three days, write about 150 words reflecting on what worked, what did not and what you will change next week.",
+      "points": 40,
+      "dueInDays": 14
+    },
+    "materials": [
+      {
+        "title": "Retrieval Practice: Strategies",
+        "description": "Research-based guide to retrieval practice, spacing and related techniques, written for teachers and students.",
+        "kind": "link",
+        "url": "https://www.retrievalpractice.org/strategies"
+      },
+      {
+        "title": "Cornell Learning Strategies Center: Cornell Note-Taking System",
+        "description": "A university guide with a template and instructions for the Cornell method.",
+        "kind": "link",
+        "url": "https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/"
+      },
+      {
+        "title": "TED-Ed: 3 tips on how to study effectively",
+        "description": "A short animated video summarising practical study techniques.",
+        "kind": "video",
+        "url": "https://www.youtube.com/watch?v=TjPFZaMe2yw"
+      }
+    ]
+  }
+]
