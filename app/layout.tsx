@@ -2,6 +2,7 @@
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "@/context/ThemeContext";
 import { AuthProvider } from "@/context/AuthContext";
+import { QueryProvider } from "@/context/QueryProvider";
 import { Toaster } from "@/components/ui/sonner";
 import "./globals.css";
 
@@ -24,10 +25,12 @@ export default function RootLayout({
         className={`${inter.className} antialiased min-h-screen bg-background text-foreground`}
       >
         <ThemeProvider defaultTheme="system">
-          <AuthProvider>
-            {children}
-            <Toaster />
-          </AuthProvider>
+          <QueryProvider>
+            <AuthProvider>
+              {children}
+              <Toaster />
+            </AuthProvider>
+          </QueryProvider>
         </ThemeProvider>
       </body>
     </html>
