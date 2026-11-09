@@ -1,7 +1,5 @@
 # Product
 
-<!-- impeccable:product-schema 1 -->
-
 <!-- Inferred from the repo README, schema and routes. The owner asked for the project to be finished and launched for a portfolio; no interview was held and every fact below is labelled as given or inferred. -->
 
 ## Platform
